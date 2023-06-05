@@ -24,4 +24,33 @@ Moje výzkumná metoda bude naprogramování simulátoru, který mi pomůže ov�
 mojí hypotézu. Všechny rovnice, které budou v mém simulátoru budou popsané v
 teoretické části mé práce
 
-Při zkoumání tohoto jevu je také možné,že budu schopný popsat jak y-novou tak x-ovou složku rychlosti míčku po jeho odrazu. Ty v závěru zmínim, ale hlavním téma práce je stále vyjádřit otočení x-ové složky pohybu po odrazu jako funkci úhlové rychlosti.
+Při zkoumání tohoto jevu je také možné,že budu schopný popsat jak y-novou tak
+x-ovou složku rychlosti míčku po jeho odrazu. Ty v závěru zmínim, ale hlavním
+téma práce je stále vyjádřit otočení x-ové složky pohybu po odrazu jako funkci
+úhlové rychlosti.
+
+# Roadmap
+Teoretická část:
+- [ ] Motivace/pozorování
+    * Pozorocání tohoto efektu specificky při stolním tenisua
+- [ ] Hypotéza
+    * Jaké veličiny hrají roly
+    * Jaké veličiny jsou přímo a jaké nepřímo uměrné
+- [ ] Vliv různých veličin na tělesa v pohybu
+    * Tření vzduchu
+        * Statický vzduch
+        * Vzduch s vlastní energií
+    * Magnus efekt
+- [ ] Typy odrazu
+    * Deformace při odrazu
+    * Přenos energie
+    * Vliv rotace na odraz
+
+Praktická část:
+- [ ] Dobrá kreslící knihovna
+- [ ] Obecné třídy
+- [ ] Zrychlení a rychlost na základě sil
+- [ ] Rovnice, které musí systém splňovat
+- [ ] Debugging... :(
+
+
