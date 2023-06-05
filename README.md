@@ -30,9 +30,10 @@ téma práce je stále vyjádřit otočení x-ové složky pohybu po odrazu jako
 úhlové rychlosti.
 
 # Roadmap
-Teoretická část:
+
+## Teoretická část:
 - [ ] Motivace/pozorování
-    * Pozorocání tohoto efektu specificky při stolním tenisua
+    * Pozorování tohoto efektu specificky při stolním tenisu
 - [ ] Hypotéza
     * Jaké veličiny hrají roly
     * Jaké veličiny jsou přímo a jaké nepřímo uměrné
@@ -45,10 +46,22 @@ Teoretická část:
     * Deformace při odrazu
     * Přenos energie
     * Vliv rotace na odraz
+- [ ] Popis simulátoru
+    * Obecně simulování
+      * Validita dat
+    * Základní idea algoritmů
+- [ ] Interpretace dat ze simulátoru
+    * Obsáhlý popis celého systému
+    * Potvrzení/vyvrácení hypotézy
+- [ ] Závěr
+    * Teorie vs. Praxe
+    * Správnost hypotézy
+    * Vedlejší jevy a jejich rovnice
 
-Praktická část:
+## Praktická část:
 - [ ] Dobrá kreslící knihovna
 - [ ] Obecné třídy
+   - [ ] Detekce kolize 
 - [ ] Zrychlení a rychlost na základě sil
 - [ ] Rovnice, které musí systém splňovat
 - [ ] Debugging... :(
