@@ -34,6 +34,30 @@ téma práce je stále vyjádřit otočení x-ové složky pohybu po odrazu jako
 
 # Roadmap
 
+## Pořiďte si předplatné:
+- [ ] Symulátor prototyp
+    * Zanedbání odporu vzudchu a dalších efektů
+    * Odraz s nulovou úhlovou rychlostí
+    * UI symulátoru nulové
+
+- [ ] Symulátor klasik navíc nabízí
+    * Započítání odporu vzduchu
+    * Podporu záporné úhlové rychlosti
+    
+- [ ] Symulátor premium má navíc:
+    * Všechny možné úhlové rychlosti
+    * Magnusův efekt po dobu letu
+    * Vztlak při kontaktu
+
+- [ ] Symulátor golden nabízí:
+    * Podporu pro custom koeficienty tření
+    * Jednoduhé UI a základní vizualizace některých sil
+
+- [ ] Symulátor ultimate přidává:
+    * Podporu více míčků a nárazů mězi nimi
+    * Kompletní nastavení přímo v aplikaci
+    * Přístup k vizualizacím všeho typu
+
 ## Teoretická část:
 - [ ] Motivace/pozorování
     * Pozorování tohoto efektu specificky při stolním tenisu
