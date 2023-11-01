@@ -42,17 +42,21 @@ spins = {
 from simulator import Simulator
 import math
 def testing(spin):
-    print("----------------",spin,"---------------------")
+    print("----------------spin =",spin,"---------------------")
     spin_values = spins[spin]
     for angle in spin_values:
         simulator = Simulator(
-            velocity=2,angle=math.radians(angle),spin=spin,CoSF=0.2,VRC=0.9,Radius=0.025,D=0.0,AMC=0.25
+            velocity=2,angle=math.radians(angle),spin=spin,
+            CoSF=0.2,VRC=0.9,Radius=0.025,D=0.0,AMC=0.25
         )
-        print("debuging:",spin_values[angle],simulator.Simulate()[0],spin_values[angle]-simulator.Simulate()[0])
+        
         difference_spin = spin_values[angle]-simulator.Simulate()[0]
         difference_speed = speed_values[angle] - simulator.Simulate()[1]
         print("---",angle,"---")
         print("spin difference:",difference_spin)
         print("speed difference:",difference_speed)
+        print("debuging:",spin_values[angle],simulator.Simulate()[0])
+testing(30)
+testing(60)
 testing(120)
 
