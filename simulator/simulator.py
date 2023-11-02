@@ -22,8 +22,7 @@ class Simulator:
         self.AMC = AMC
     
     def Simulate(self):
-        #print(self.velocity,self.spin)
-        #print("spin:",self.get_SlidingSpin(),"velocity:",self.get_SlidingVx2())
+        print("velocity:",self.get_SlidingVx2())
         sliding_spin = self.get_SlidingSpin()
         sliding_speed = self.get_SlidingVx2()
         return sliding_spin,sliding_speed

@@ -1,24 +1,24 @@
 paper_values30 = {
-    0:0.65,
-    20:1,
-    40:1.5,
-    50:1.8
+    0:-30,
+    20:-15,
+    40:20,
+    50:30
 }
 
 paper_values60 = {
-    0:0.15,
-    20:0.51,
-    40:0.85,
-    60:1.25,
-    70:1.35
+    0:-60,
+    20:-30,
+    40:-15,
+    60:0,
+    70:10
 }
 
 paper_value120 = {
-    0: -1,
-    20:-0.45,
-    40: -0.15,
-    60: 0.15,
-    80:0.3,
+    0: -120,
+    20: -90,
+    40: -75,
+    60: -55,
+    80: -45,
 }
 
 speed_values = {
@@ -43,20 +43,20 @@ from simulator import Simulator
 import math
 def testing(spin):
     print("----------------spin =",spin,"---------------------")
-    spin_values = spins[spin]
+    spin_values = spins[abs(spin)]
     for angle in spin_values:
         simulator = Simulator(
             velocity=2,angle=math.radians(angle),spin=spin,
-            CoSF=0.2,VRC=0.9,Radius=0.025,D=0.0,AMC=0.25
+            CoSF=0.2,VRC=0.9,Radius=0.025,D=0.00,AMC=0.25
         )
-        
-        difference_spin = spin_values[angle]-simulator.Simulate()[0]
-        difference_speed = speed_values[angle] - simulator.Simulate()[1]
         print("---",angle,"---")
-        print("spin difference:",difference_spin)
-        print("speed difference:",difference_speed)
-        print("debuging:",spin_values[angle],simulator.Simulate()[0])
-testing(30)
-testing(60)
-testing(120)
 
+        simulated_value = simulator.Simulate()
+        difference_spin = spin_values[angle]-simulated_value[0]
+        difference_speed = speed_values[angle] - simulated_value[1]
+        print("target spin:",spin_values[angle])
+        print("simulated:",simulated_value[0])
+        print("spin difference:",difference_spin)
+testing(-30)
+testing(-60)
+testing(-120)
