@@ -47,7 +47,7 @@ def testing(spin):
     for angle in spin_values:
         simulator = Simulator(
             velocity=2,angle=math.radians(angle),spin=spin,
-            CoSF=0.2,VRC=0.9,Radius=0.025,D=0.0,AMC=0.25
+            CoSF=0.2,VRC=0.9,Radius=0.025,D=0,AMC=0.4
         )
         
         difference_spin = spin_values[angle]-simulator.Simulate()[0]
