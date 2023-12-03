@@ -2,7 +2,7 @@ import math as math
 
 class Simulator:
     def __init__(
-            self,velocity=0, angle=0, spin=0, CoSF=0, VRC=0, Radius=0, D=0, AMC=0
+            self,velocity=0, angle=0, spin=0, CoSF=0, VRC=0, HRC=0, Radius=0, D=0, AMC=0
             #AMC = angular momentum coeficient
             #VRC = vertical restitution coeficient
             #CoSF = coeficient of sliding friction
@@ -15,23 +15,35 @@ class Simulator:
         #print("Vx1:",self.Vx1,"Vy1:",self.Vy1)
         self.spin = spin
         #koefitients
-        self.CoSF = CoSF
-        self.VRC = VRC
-        self.Radius = Radius
+        self.u = CoSF
+        self.ey = VRC
+        self.ex = HRC
+        self.R = Radius
         self.D = D
-        self.AMC = AMC
+        self.a = AMC
     
-    def Simulate(self):
+    def simulate(self):
         print("velocity:",self.get_SlidingVx2())
         sliding_spin = self.get_SlidingSpin()
         sliding_speed = self.get_SlidingVx2()
         return sliding_spin,sliding_speed
 
-    #working proprely
-    def get_SlidingVx2(self):
-        rebound_speed= self.Vx1 - self.CoSF * (1 + self.VRC) * self.Vy1
+    def get_sliding_speed(self):
+        rebound_speed= self.Vx1 - self.u * (1 + self.ey) * self.Vy1
         return rebound_speed
-    #bruh
-    def get_SlidingSpin(self):
-        rebound_spin = self.spin + (1 + self.VRC) * (self.CoSF -(self.D/self.Radius)) * self.Vy1/(self.AMC*self.Radius)
+
+    def get_sliding_spin(self):
+        rebound_spin = self.spin + (1 + self.ey) * (self.u -(self.D/self.R)) * self.Vy1/(self.a*self.R)
+        return rebound_spin
+
+    def get_griping_speed(self):
+        rebound_speed = ((1-self.a*self.ex)*self.Vx1)/(1+self.a) 
+        + (self.a*self.R*self.spin*(1+self.ex))/(1+self.a) 
+        - (self.D*self.Vy1*(1+self.ex))/(self.R*(1+self.a))
+        return rebound_speed
+    
+    def get_griping_spin(self):
+        rebound_spin = ((self.a-self.ex)*self.spin)/(1+self.a) 
+        + (self.Vx1*(1+self.ex))/(self.R*(1+self.a)) 
+        - (self.D*self.Vy1*(1+self.ey))/((self.R**2)*(1+self.a))
         return rebound_spin
