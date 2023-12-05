@@ -1,14 +1,14 @@
-[0] Config.pm:306> INFO - This is Biber 2.18
-[0] Config.pm:309> INFO - Logfile is 'main.blg'
-[98] biber:340> INFO - === Tue Nov  7, 2023, 12:01:53
-[115] Biber.pm:418> INFO - Reading 'main.bcf'
-[183] Biber.pm:978> INFO - Found 1 citekeys in bib section 0
-[198] Biber.pm:4401> INFO - Processing section 0
-[209] Biber.pm:4592> INFO - Looking for bibtex file 'refs.bib' for section 0
-[210] bibtex.pm:1713> INFO - LaTeX decoding ...
-[214] bibtex.pm:1518> INFO - Found BibTeX data source 'refs.bib'
-[254] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
-[254] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[254] Biber.pm:4221> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'cs-CZ'
-[255] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[256] bbl.pm:757> INFO - Output to main.bbl
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[98] biber:340> INFO - === Út lis 14, 2023, 15:45:58
+[113] Biber.pm:418> INFO - Reading 'main.bcf'
+[194] Biber.pm:972> INFO - Found 1 citekeys in bib section 0
+[214] Biber.pm:4383> INFO - Processing section 0
+[227] Biber.pm:4574> INFO - Looking for bibtex file 'refs.bib' for section 0
+[228] bibtex.pm:1713> INFO - LaTeX decoding ...
+[232] bibtex.pm:1518> INFO - Found BibTeX data source 'refs.bib'
+[275] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
+[275] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[275] Biber.pm:4203> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'cs-CZ'
+[277] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[277] bbl.pm:757> INFO - Output to main.bbl
