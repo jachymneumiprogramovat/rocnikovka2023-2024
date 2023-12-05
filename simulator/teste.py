@@ -47,11 +47,7 @@ def testing(spin):
     for angle in spin_values:
         simulator = Simulator(
             velocity=2,angle=math.radians(angle),spin=spin,
-<<<<<<< HEAD
             CoSF=0.2,VRC=0.9,Radius=0.025,D=0,AMC=0.4
-=======
-            CoSF=0.2,VRC=0.9,Radius=0.025,D=0.00,AMC=0.25
->>>>>>> 7e849d1664ea254bc6e2ab6f49e72272e4f9f76e
         )
         print("---",angle,"---")
 
