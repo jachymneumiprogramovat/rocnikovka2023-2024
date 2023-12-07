@@ -1,11 +1,12 @@
 # Fdb version 4
-["pdflatex"] 1701787609 "diagram.tex" "diagram.pdf" "diagram" 1701787612 2
+["pdflatex"] 1701866035 "diagram.tex" "diagram.pdf" "diagram" 1701866036 2
   "/etc/texmf/web2c/texmf.cnf" 1685441629 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1248133631 31809 8670ca339bf94e56da1fc21c80635e2a ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty" 1572645307 492 1994775aa15b0d1289725a0b1bbc2d4c ""
@@ -119,8 +120,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1693172360 40357 c95f5d5e031b5c7040b426833c11f2e0 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1699444434 4643645 d2d1d8b8ba87ed005f4aaf1ce646a79e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1699444578 7908543 566c73c456613915b00c86934b3cfd64 ""
-  "diagram.aux" 1701787612 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "diagram.tex" 1701787608 1739 66f697fd00a6d0c0a2cdfd37a653683e ""
+  "diagram.aux" 1701866036 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "diagram.tex" 1701866034 2442 fda7311a16575bb07cae81abe8563d69 ""
   (generated)
   "diagram.aux"
   "diagram.log"

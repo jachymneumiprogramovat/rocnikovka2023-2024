@@ -28,7 +28,7 @@ class Data:
                     )
                     rebound_speed = simulator.simulate()[1]
                     if rebound_speed<0:
-                        print(rebound_speed,spin)
+                        print(velocity,spin,angle,rebound_speed)
                         ans[velocity,angle] = spin
                         break
                     spin += self.spin_step
