@@ -4,6 +4,7 @@
 \usepackage[czech]{babel}
 \usepackage{pdfpages}
 \usepackage{graphicx}
+\usepackage{siunitx}
 
 \title{Efekt úhlové rychlosti na odraz míčku}
 \subtitle{První část experimentu a základ teorie}
@@ -36,7 +37,7 @@
   \begin{itemize}
    \item $v_{y1}=0 \Rightarrow $ žádný odraz
    \item $\theta_1\approx0 \Rightarrow v_{x2} > 0$
-   \item $\theta_1=90\degree \land \omega_1<0 \Rightarrow v_{x2} < 0 $
+   \item $\theta_1=\qty{90}{\degree} \land \omega_1<0 \Rightarrow v_{x2} < 0 $
    \item $\omega_1=0 \Rightarrow \theta_1=\theta_2 $, Zákon akce a reakce
   \end{itemize}
  \end{frame}
@@ -55,7 +56,10 @@
 \end{frame}
 
  \begin{frame}{Simulace}
- 
+ Pro materiálové konstanty relevantní pro golfový míček na žulovém povrchu:
+ \[
+  v_{x2} < 0 \Rightarrow \theta_1 > \qty{69}{\degree}
+ \]
 \end{frame}
 \end{document}
 
