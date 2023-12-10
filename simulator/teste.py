@@ -55,7 +55,7 @@ def testing(spin):
         difference_spin = spin_values[angle]-simulated_value[0]
         difference_speed = speed_values[angle] - simulated_value[1]
         print("target speed",speed_values[angle])
-        print("simulated:",simulated_value[0])
+        print("simulated:",simulated_value[1])
         print("speed difference:",difference_speed)
 testing(-30)
 testing(-60)
