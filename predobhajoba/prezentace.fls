@@ -3,7 +3,7 @@ INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/jachym/Desktop/škola/rocnikovka2023-2024/predobhajoba/prezentace.tex
+INPUT prezentace.tex
 OUTPUT prezentace.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
