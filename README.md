@@ -4,7 +4,7 @@ Obsahuje jednu složku na samotnou práci a druhou na simulátor.
 Hlavním smyslem je simulovat míček co s nenulovou úhlovou rychlostí dopadá na povrch a od něj se odráží. Určit směr, kterým se odrazí a další vlastnosti odrazu.
 
 # Diagram
-![Diagram](prace/diagram/diagram1024_1.jpg)
+![Diagram](predobhajoba/diagram.pdf)
 
 # Preciznější popis:
 
@@ -24,73 +24,16 @@ pro tuto úhlovou rychlost musí mít míček také
 Tedy ten fakt jestli se odrazí nebo ne formuloval jako funkci úhlové rychlosti.
 
 Moje výzkumná metoda bude naprogramování simulátoru, který mi pomůže ověřit
-mojí hypotézu. Všechny rovnice, které budou v mém simulátoru budou popsané v
-teoretické části mé práce
+mojí hypotézu. Rovnice popisující tento děj jsou odvozené z obecných kinematických. Ty jsem převzal z odborných článků.
 
-Při zkoumání tohoto jevu je také možné,že budu schopný popsat jak y-novou tak
-x-ovou složku rychlosti míčku po jeho odrazu. Ty v závěru zmínim, ale hlavním
-téma práce je stále vyjádřit otočení x-ové složky pohybu po odrazu jako funkci
-úhlové rychlosti.
+#Co bude příště?
+Příprava na předobhajobu:
+- [x] Popsat případ jen se smýkáním
+- [ ] Dokončit prezentaci
 
-# Roadmap
-
-## Pořiďte si předplatné:
-- [ ] Symulátor prototyp
-    * Zanedbání odporu vzudchu a dalších efektů
-    * Odraz s nulovou úhlovou rychlostí
-    * UI symulátoru nulové
-
-- [ ] Symulátor klasik navíc nabízí
-    * Započítání odporu vzduchu
-    * Podporu záporné úhlové rychlosti
-    
-- [ ] Symulátor premium má navíc:
-    * Všechny možné úhlové rychlosti
-    * Magnusův efekt po dobu letu
-    * Vztlak při kontaktu
-
-- [ ] Symulátor golden nabízí:
-    * Podporu pro custom koeficienty tření
-    * Jednoduhé UI a základní vizualizace některých sil
-
-- [ ] Symulátor ultimate přidává:
-    * Podporu více míčků a nárazů mězi nimi
-    * Kompletní nastavení přímo v aplikaci
-    * Přístup k vizualizacím všeho typu
-
-## Teoretická část:
-- [ ] Motivace/pozorování
-    * Pozorování tohoto efektu specificky při stolním tenisu
-- [ ] Hypotéza
-    * Jaké veličiny hrají roly
-    * Jaké veličiny jsou přímo a jaké nepřímo uměrné
-- [ ] Vliv různých veličin na tělesa v pohybu
-    * Tření vzduchu
-        * Statický vzduch
-        * Vzduch s vlastní energií
-    * Magnus efekt
-- [ ] Typy odrazu
-    * Deformace při odrazu
-    * Přenos energie
-    * Vliv rotace na odraz
-- [ ] Popis simulátoru
-    * Obecně simulování
-      * Validita dat
-    * Základní idea algoritmů
-- [ ] Interpretace dat ze simulátoru
-    * Obsáhlý popis celého systému
-    * Potvrzení/vyvrácení hypotézy
-- [ ] Závěr
-    * Teorie vs. Praxe
-    * Správnost hypotézy
-    * Vedlejší jevy a jejich rovnice
-
-## Praktická část:
-- [ ] Dobrá kreslící knihovna
-- [ ] Obecné třídy
-   - [ ] Detekce kolize 
-- [ ] Zrychlení a rychlost na základě sil
-- [ ] Rovnice, které musí systém splňovat
-- [ ] Debugging... :(
-
-
+Kroky pro dokončení celé práce:
+- [ ] Popsat pro jaké spiny je model jen se smýkáním validní
+- [ ] Rozšířit model i na rolování
+- [ ] Sám si odvodit rovnice
+- [ ] Alespoň teoreticky se podívat na problém do větší hloubky
+ 
