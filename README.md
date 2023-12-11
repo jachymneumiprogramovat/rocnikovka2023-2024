@@ -26,7 +26,7 @@ Tedy ten fakt jestli se odrazí nebo ne formuloval jako funkci úhlové rychlost
 Moje výzkumná metoda bude naprogramování simulátoru, který mi pomůže ověřit
 mojí hypotézu. Rovnice popisující tento děj jsou odvozené z obecných kinematických. Ty jsem převzal z odborných článků.
 
-#Co bude příště?
+# Co bude příště?
 Příprava na předobhajobu:
 - [x] Popsat případ jen se smýkáním
 - [ ] Dokončit prezentaci
