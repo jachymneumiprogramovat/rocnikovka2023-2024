@@ -25,10 +25,15 @@ class Simulator:
         self.D = D
         self.a = AMC
     
-    def simulate(self):
+    def simulate_sliding(self):
         sliding_spin = self.get_sliding_spin()
         sliding_speed = self.get_sliding_speed()
         return sliding_spin,sliding_speed
+    
+    def simulate_roling(self):
+        roling_spin = self.get_roling_spin()
+        roling_speed = self.get_roling_speed()
+        return roling_spin,roling_speed
 
     def get_sliding_speed(self):
         rebound_speed= self.Vx1 
@@ -43,13 +48,13 @@ class Simulator:
     def get_sliding_backwards_bounce(self)->bool:
         return math.tan(self.angle) > 1/(self.u*(1+self.ey))
 
-    def get_griping_speed(self):
+    def get_roling_speed(self):
         rebound_speed = ((1-self.a*self.ex)*self.Vx1)/(1+self.a) 
         + (self.a*self.R*self.spin*(1+self.ex))/(1+self.a) 
         - (self.D*self.Vy1*(1+self.ex))/(self.R*(1+self.a))
         return rebound_speed
     
-    def get_griping_spin(self):
+    def get_roling_spin(self):
         rebound_spin = ((self.a-self.ex)*self.spin)/(1+self.a) 
         + (self.Vx1*(1+self.ex))/(self.R*(1+self.a)) 
         - (self.D*self.Vy1*(1+self.ey))/((self.R**2)*(1+self.a))
