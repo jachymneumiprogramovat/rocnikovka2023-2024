@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.6)  10 DEC 2023 15:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.6)  1 JAN 2024 19:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -530,84 +530,49 @@ Language: czech 2008/07/06 v3.1a Czech support from the babel system
 Package babel Info: Making " an active character on input line 172.
 \cs@wordlen=\count331
 Package babel Info: Making - an active character on input line 226.
-)) (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2022/01/29 v0.5u Insert pages of external PDF documents (AM)
- (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
-) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count332
-\calc@Bcount=\count333
-\calc@Adimen=\dimen285
-\calc@Bdimen=\dimen286
-\calc@Askip=\skip64
-\calc@Bskip=\skip65
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count334
-\calc@Cskip=\skip66
-) (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
-\ESO@tempdima=\dimen287
-\ESO@tempdimb=\dimen288
-)
-\AM@pagewidth=\dimen289
-\AM@pageheight=\dimen290
-\AM@fboxrule=\dimen291
- (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2022/01/29 v0.5u Pdfpages driver for pdfTeX (AM)
-)
-\pdfpages@includegraphics@status=\count335
-\AM@pagebox=\box75
-\AM@global@opts=\toks45
-\AM@pagecnt=\count336
-\AM@toc@title=\toks46
-\c@AM@survey=\count337
-\AM@templatesizebox=\box76
-) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2022-02-02 v3.0.46 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen292
-\l__siunitx_angle_marker_box=\box77
-\l__siunitx_angle_unit_box=\box78
-\l__siunitx_compound_count_int=\count338
+\l__siunitx_angle_tmp_dim=\dimen285
+\l__siunitx_angle_marker_box=\box75
+\l__siunitx_angle_unit_box=\box76
+\l__siunitx_compound_count_int=\count332
  (/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/01/04 v1.11 internationalization of LaTeX2e packages (CN)
 )
-\l__siunitx_number_exponent_fixed_int=\count339
-\l__siunitx_number_min_decimal_int=\count340
-\l__siunitx_number_min_integer_int=\count341
-\l__siunitx_number_round_precision_int=\count342
-\l__siunitx_number_group_minimum_int=\count343
-\l__siunitx_table_tmp_box=\box79
-\l__siunitx_table_tmp_dim=\dimen293
-\l__siunitx_table_column_width_dim=\dimen294
-\l__siunitx_table_integer_box=\box80
-\l__siunitx_table_decimal_box=\box81
-\l__siunitx_table_before_box=\box82
-\l__siunitx_table_after_box=\box83
-\l__siunitx_table_before_dim=\dimen295
-\l__siunitx_table_carry_dim=\dimen296
-\l__siunitx_unit_tmp_int=\count344
-\l__siunitx_unit_position_int=\count345
-\l__siunitx_unit_total_int=\count346
+\l__siunitx_number_exponent_fixed_int=\count333
+\l__siunitx_number_min_decimal_int=\count334
+\l__siunitx_number_min_integer_int=\count335
+\l__siunitx_number_round_precision_int=\count336
+\l__siunitx_number_group_minimum_int=\count337
+\l__siunitx_table_tmp_box=\box77
+\l__siunitx_table_tmp_dim=\dimen286
+\l__siunitx_table_column_width_dim=\dimen287
+\l__siunitx_table_integer_box=\box78
+\l__siunitx_table_decimal_box=\box79
+\l__siunitx_table_before_box=\box80
+\l__siunitx_table_after_box=\box81
+\l__siunitx_table_before_dim=\dimen288
+\l__siunitx_table_carry_dim=\dimen289
+\l__siunitx_unit_tmp_int=\count338
+\l__siunitx_unit_position_int=\count339
+\l__siunitx_unit_total_int=\count340
  (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2022-01-21 L3 programming layer (loader) 
  (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count347
-\l__pdf_internal_box=\box84
+\l__color_backend_stack_int=\count341
+\l__pdf_internal_box=\box82
 ))
 Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen297
-\ar@mcellbox=\box85
-\extrarowheight=\dimen298
-\NC@list=\toks47
-\extratabsurround=\skip67
-\backup@length=\skip68
-\ar@cellbox=\box86
+\col@sep=\dimen290
+\ar@mcellbox=\box83
+\extrarowheight=\dimen291
+\NC@list=\toks45
+\extratabsurround=\skip64
+\backup@length=\skip65
+\ar@cellbox=\box84
 )) (./prezentace.aux)
 \openout1 = `prezentace.aux'.
 
@@ -666,17 +631,17 @@ LaTeX Font Info:    ... okay on input line 15.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count348
-\scratchdimen=\dimen299
-\scratchbox=\box87
-\nofMPsegments=\count349
-\nofMParguments=\count350
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count351
-\MPscratchDim=\dimen300
-\MPnumerator=\count352
-\makeMPintoPDFobject=\count353
-\everyMPtoPDFconversion=\toks49
+\scratchcounter=\count342
+\scratchdimen=\dimen292
+\scratchbox=\box85
+\nofMPsegments=\count343
+\nofMParguments=\count344
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count345
+\MPscratchDim=\dimen293
+\MPnumerator=\count346
+\makeMPintoPDFobject=\count347
+\everyMPtoPDFconversion=\toks47
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -691,7 +656,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count354
+\c@section@level=\count348
 )
 LaTeX Info: Redefining \ref on input line 15.
 LaTeX Info: Redefining \pageref on input line 15.
@@ -761,12 +726,6 @@ Dictionary: translator-months-dictionary, Language: English
 Dictionary: translator-numbers-dictionary, Language: English 
 ) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
-Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 Package translations Info: no dictionary file `translations-basic-dictionary-czech.trsl' found. on input line 15.
  (./prezentace.nav) [1
@@ -774,34 +733,31 @@ Package translations Info: no dictionary file `translations-basic-dictionary-cze
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./prezentace.toc) [2
 
 ]
-<diagram.pdf, id=86, 271.10085pt x 146.34073pt>
+<diagram.pdf, id=90, 271.10085pt x 146.34073pt>
 File: diagram.pdf Graphic file (type pdf)
 <use diagram.pdf>
-Package pdftex.def Info: diagram.pdf  used on input line 27.
+Package pdftex.def Info: diagram.pdf  used on input line 34.
 (pdftex.def)             Requested size: 271.10017pt x 146.34036pt.
- [3
-
- <./diagram.pdf>] [4
-
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 43.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 34.
  (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
-) [5
+) [3
+
+ <./diagram.pdf>] [4
+
+] [5
 
 ] [6
 
 ] [7
-
-] [8
 
 ]
 \tf@nav=\write6
@@ -815,21 +771,21 @@ File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mat
 
  (./prezentace.aux)
 Package rerunfilecheck Info: File `prezentace.out' has not changed.
-(rerunfilecheck)             Checksum: B97ED8A138A422EC56FC2F5A77E01152;171.
+(rerunfilecheck)             Checksum: 8F6E1A015265CCC542F44E59B8AB67A0;321.
  ) 
 Here is how much of TeX's memory you used:
- 26841 strings out of 478287
- 551577 string characters out of 5849290
- 794186 words of memory out of 5000000
- 44512 multiletter control sequences out of 15000+600000
+ 25931 strings out of 478287
+ 534877 string characters out of 5849290
+ 777763 words of memory out of 5000000
+ 43628 multiletter control sequences out of 15000+600000
  476009 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,122p,409b,764s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on prezentace.pdf (8 pages, 128646 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on prezentace.pdf (7 pages, 135061 bytes).
 PDF statistics:
- 320 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
- 19 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 301 PDF objects out of 1000 (max. 8388607)
+ 254 compressed objects within 3 object streams
+ 18 named destinations out of 1000 (max. 500000)
+ 84 words of extra memory for PDF output out of 10000 (max. 10000000)
 

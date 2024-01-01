@@ -1,3 +1,4 @@
 \babel@toc {czech}{}\relax 
-\beamer@sectionintoc {1}{Teorie}{4}{0}{1}
-\beamer@sectionintoc {2}{Experimenty}{7}{0}{2}
+\beamer@sectionintoc {1}{Uvedení do problému}{3}{0}{1}
+\beamer@sectionintoc {2}{Teorie}{5}{0}{2}
+\beamer@sectionintoc {3}{Experimenty}{7}{0}{3}

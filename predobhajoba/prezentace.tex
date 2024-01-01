@@ -2,7 +2,7 @@
 \usetheme{Boadilla}
 
 \usepackage[czech]{babel}
-\usepackage{pdfpages}
+\usepackage{xcolor}
 \usepackage{graphicx}
 \usepackage{siunitx}
 
@@ -13,8 +13,7 @@
 \date{\today}
 
 \begin{document}
- 
- \begin{frame}
+  \begin{frame}
   \titlepage
  \end{frame}
 
@@ -22,23 +21,36 @@
   \tableofcontents
  \end{frame}
 
+ \section{Uvedení do problému}
+ 
  \begin{frame}{Nastínění problému}
-  \includegraphics{diagram.pdf}
+  \centering
+  \includegraphics{diagram.pdf}\\
+  \raggedright
+  $\color{red}\vec{v_{1,2}}$ = rychlost před/po odrazu \\
+  $\color{blue}\omega_{1,2}$ = spin před/po odrazu \\
+  $\color[rgb]{0,0.5,0}\theta_{1,2}$ = úhel dopadu/odrazu \\
+  
+ \end{frame}
+
+ \begin{frame}{Výzkumná otázka}
+  \centering
+  Jaký backspin je potřeba pro zpětný odraz míčku a jak ovlivňuje spin po
+  odrazu? Pro všechny úhly odrazu
+  ($\qty{0}{\degree}-\qty{90}{\degree}$) a vybrané
+  rychlosti($\qty{1}{\meter\per\second} - \qty{10}{\meter\per\second}$).
  \end{frame}
 
  \section{Teorie} 
 
-\begin{frame}
- \sectionpage
-\end{frame}
-
  \begin{frame}{Teorie}
   Triviální příklady:
   \begin{itemize}
-   \item $v_{y1}=0 \Rightarrow $ žádný odraz
-   \item $\theta_1\approx0 \Rightarrow v_{x2} > 0$
-   \item $\theta_1=\qty{90}{\degree} \land \omega_1<0 \Rightarrow v_{x2} < 0 $
-   \item $\omega_1=0 \Rightarrow \theta_1=\theta_2 $, Zákon akce a reakce
+   \item Když míček nepadá dolů nemá se od čeho odrazit 
+   \item Bez úhlové rotace se úhel dopadu rovná úhlu odrazu
+   \item Když míček letí rovnoběžně s povrchem nemůže se odrazit zpátky
+   \item Když míček letí kolmo na povrch je velmi jednoduché aby se odrazil
+    zpátky
   \end{itemize}
  \end{frame}
 
@@ -52,9 +64,6 @@
 \end{frame}
 
 \section{Experimenty}
-\begin{frame}
- \sectionpage
-\end{frame}
 
  \begin{frame}{Simulace}
  Pro materiálové konstanty relevantní pro golfový míček na žulovém povrchu:
