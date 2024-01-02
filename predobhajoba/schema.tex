@@ -1,0 +1,41 @@
+\begin{tikzpicture}[
+ block/.style={
+      rectangle,
+      draw=blue,
+      thick,
+      fill=blue!20,
+      text width=5em,
+      align=center,
+      rounded corners,
+      minimum height=2em
+   },
+   box/.style={
+    rectangle,
+    draw=black,
+    text width = 5em,
+    align = center,
+    rounded corners,
+    minimum height = 2em,
+   }
+ ]
+ %počítač
+ \node[block] (poc) at (0,0) {počítač};
+
+ %input
+ \node[box] (input) at
+ ($(poc)+(-4,0)$){$\color{red}\vec{v_1}$,$\color{blue}\omega_1$,$\color[rgb]{0,0.5,0}\theta_1$};
+ %output
+ \node[box] (output) at ($(poc)+(4,0)$){$\color{red}\vec{v_2}$,$\color{blue}\omega_2$};
+
+ %rovnice
+ \node[box] (rovnice) at ($(poc)+(0,2)$){rovnice};
+ %materiálové konstanty
+ \node[box] (konst) at ($(poc)+(0,-2)$) [align=left] {materiálové \\ konstanty};
+
+ %šipky
+ \draw[thick,-stealth] (input) -- (poc);
+ \draw[thick,-stealth] (poc) -- (output);
+
+ \draw[thick,-stealth] (konst) -- (poc);
+ \draw[thick,-stealth] (rovnice) -- (poc);
+ \end{tikzpicture}

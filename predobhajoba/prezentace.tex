@@ -6,6 +6,13 @@
 \usepackage{graphicx}
 \usepackage{siunitx}
 
+%pictures
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathreplacing,angles,quotes,calc}
+%checkboxes
+\usepackage{pifont}
+\usepackage{amssymb}
+
 \title{Efekt úhlové rychlosti na odraz míčku}
 \subtitle{První část experimentu a základ teorie}
 \author{Jáchym Löwenhöffer}
@@ -65,14 +72,37 @@
 
 \section{Experimenty}
 
- \begin{frame}{Simulace}
+\begin{frame}{Simulace}
+ \centering
+\input{schema.tex}
+\end{frame}
+
+ \begin{frame}{Výsledky}
  Pro materiálové konstanty relevantní pro golfový míček na žulovém povrchu:
  \[
   v_{x2} < 0 \Rightarrow \theta_1 > \qty{69}{\degree}
  \]
- Tedy směr odrazu není závislý ani na $v_{x1}$ ani na $\omega$.\\
- Dalším směrem mé práce je prozkoumat případy, kdy dochází i k rolování. Pro ty
- bude odpověď záležet i na jiných faktorech.
+ Tedy směr odrazu není závislý ani na $v_{x1}$ ani na $\omega_1$.
+\end{frame}
+
+\section{Otázky}
+
+\begin{frame}{Závěr}
+ \textbf{Cíl:} pro některé míčky a povrchy být schopný předpovědět jakým směrem
+ se míček odrazí a najít takový spin aby se vracel zpátky ($v_{x2}<0$).
+ \vfill
+ \textbf{Postup:}\\
+ \begin{itemize}
+  \item[\rlap{\raisebox{0.3ex}{\hspace{0.4ex}\tiny \ding{52}}}$\square$]
+  Simulace pro jednoduché podmínky
+  
+  \item[\rlap{\raisebox{0.3ex}{\hspace{0.4ex}\tiny \ding{52}}}$\square$]
+  Základy teorie 
+ \item[$\square$] Rozšířit simulaci na větší množství případů
+ \item[$\square$] Rozlišit jaký bude průběh odrazu
+ \item[$\square$] Porovnat simulovaná data s reálnými (ne nutně mými)
+ \end{itemize}
+
 \end{frame}
 \end{document}
 
