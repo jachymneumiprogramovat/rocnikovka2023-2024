@@ -1,4 +1,4 @@
-\documentclass{beamer}
+\documentclass[secheader]{beamer}
 \usetheme{Boadilla}
 
 \usepackage[czech]{babel}
@@ -19,6 +19,7 @@
 \institute{GEVO JM}
 \date{\today}
 
+
 \begin{document}
   \begin{frame}
   \titlepage
@@ -27,6 +28,14 @@
  \begin{frame}{Outline}
   \tableofcontents
  \end{frame}
+
+%musí outline začít až to nebude rušit
+\setbeamertemplate{headline}
+{%
+\begin{beamercolorbox}{section in head/foot}
+\vskip1pt\insertnavigation{\paperwidth}\vskip2pt
+\end{beamercolorbox}%
+}
 
  \section{Uvedení do problému}
  
@@ -70,7 +79,7 @@
  \end{itemize}
 \end{frame}
 
-\section{Experimenty}
+\section{Experiment}
 
 \begin{frame}{Simulace}
  \centering
@@ -105,4 +114,3 @@
 
 \end{frame}
 \end{document}
-
