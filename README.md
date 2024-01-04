@@ -4,7 +4,7 @@ Obsahuje jednu složku na samotnou práci a druhou na simulátor.
 Hlavním smyslem je simulovat míček co s nenulovou úhlovou rychlostí dopadá na povrch a od něj se odráží. Určit směr, kterým se odrazí a další vlastnosti odrazu.
 
 # Diagram
-![Diagram](predobhajoba/diagram.pdf)
+![Diagram](predobhajoba/diagram_page-0001.jpg)
 
 # Preciznější popis:
 
@@ -29,7 +29,7 @@ mojí hypotézu. Rovnice popisující tento děj jsou odvozené z obecných kine
 # Co bude příště?
 Příprava na předobhajobu:
 - [x] Popsat případ jen se smýkáním
-- [ ] Dokončit prezentaci
+- [x] Dokončit prezentaci
 
 Kroky pro dokončení celé práce:
 - [ ] Popsat pro jaké spiny je model jen se smýkáním validní
