@@ -51,7 +51,7 @@ def testing(spin):
         )
         print("---",angle,"---")
 
-        simulated_value = simulator.simulate()
+        simulated_value = simulator.simulate_sliding()
         difference_spin = spin_values[angle]-simulated_value[0]
         difference_speed = speed_values[angle] - simulated_value[1]
         print("target speed",speed_values[angle])
