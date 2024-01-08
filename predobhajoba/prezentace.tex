@@ -13,11 +13,11 @@
 \usepackage{pifont}
 \usepackage{amssymb}
 
-\title{Efekt úhlové rychlosti na odraz míčku}
+\title[Odraz spinujícího míčku]{Efekt úhlové rychlosti na odraz míčku}
 \subtitle{První část experimentu a základ teorie}
-\author{Jáchym Löwenhöffer}
-\institute{GEVO JM}
-\date{\today}
+\author[Jáchym L.]{Jáchym Löwenhöffer}
+\institute[]{GEVO JM}
+\date{9. Ledna 2024}
 
 
 \begin{document}
@@ -51,10 +51,8 @@
 
  \begin{frame}{Výzkumná otázka}
   \centering
-  Jaký backspin je potřeba pro zpětný odraz míčku a jak ovlivňuje spin po
-  odrazu? Pro všechny úhly odrazu
-  ($\qty{0}{\degree}-\qty{90}{\degree}$) a vybrané
-  rychlosti($\qty{1}{\meter\per\second} - \qty{10}{\meter\per\second}$).
+  Pro jaké hodnoty úhlové rychlosti rotace míčku při dané počáteční rychlosti
+ dochází při dopadu na tuhou podložku k odrazu, který směřuje zpět?
  \end{frame}
 
  \section{Teorie} 
@@ -64,15 +62,14 @@
   \begin{itemize}
    \item Když míček nepadá dolů nemá se od čeho odrazit 
    \item Bez úhlové rotace se úhel dopadu rovná úhlu odrazu
-   \item Když míček letí rovnoběžně s povrchem nemůže se odrazit zpátky
-   \item Když míček letí kolmo na povrch je velmi jednoduché aby se odrazil
-    zpátky
+   \item Když míček letí kolmo na povrch stačí jakýkoliv backspin a odrazí se
+    zpět
   \end{itemize}
  \end{frame}
 
  \begin{frame}{Předpoklady}
  \begin{itemize}
-  \item Deformuje se jen míček
+  \item Uvažujeme jen deformaci míčku, deformaci povrchu zanedbáváme
   \item Popisujeme jen samotný odraz
   \item Normálová síla působí jen v jednom bodě
   \item Při odrazu dochází jen ke smýkání 
@@ -89,15 +86,16 @@
  \begin{frame}{Výsledky}
  Pro materiálové konstanty relevantní pro golfový míček na žulovém povrchu:
  \[
-  v_{x2} < 0 \Rightarrow \theta_1 > \qty{69}{\degree}
+  \text{zpětný odraz} \Longleftrightarrow \text{úhel dopadu menší než }\qty{69}{\degree}
  \]
- Tedy směr odrazu není závislý ani na $v_{x1}$ ani na $\omega_1$.
+ Tedy směr odrazu není závislý ani na počíteční rychlosti ani na počátečním
+ spinu.
 \end{frame}
 
 \section{Otázky}
 
 \begin{frame}{Závěr}
- \textbf{Cíl:} pro některé míčky a povrchy být schopný předpovědět jakým směrem
+ \textbf{Cíl:} pro různé typy míčků a povrchů být schopný předpovědět jakým směrem
  se míček odrazí a najít takový spin aby se vracel zpátky ($v_{x2}<0$).
  \vfill
  \textbf{Postup:}\\
