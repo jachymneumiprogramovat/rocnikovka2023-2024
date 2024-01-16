@@ -2,13 +2,13 @@ from simulator import Simulator
 import math
 class Data:
     def __init__(self) -> None:
-        self.spin_max = 1000
+        self.spin_max = 500
         self.spin_min = 0
         self.spin_step = 5
 
         self.velocity_max = 10
         self.velocity_min = 1
-        self.velocity_step = 0.5
+        self.velocity_step = 1
 
         self.angle_max = 90
         self.angle_min = 0
@@ -23,9 +23,9 @@ class Data:
                     iteration+=1
                     simulator = Simulator(
                     velocity=velocity,angle=math.radians(angle),spin=-spin,
-                    CoSF=0.2,VRC=0.9,Radius=0.025,D=0,AMC=0.4
+                    CoSF=0.2,VRC=0.9,HRC=0,Radius=0.025,D=0,AMC=0.4
                     )
-                    rebound_speed = simulator.simulate()[1]
+                    rebound_speed = simulator.simulate_roling()[1]
                     if rebound_speed<0:
                         print(velocity,spin,angle,rebound_speed)
                         ans[velocity,angle] = spin

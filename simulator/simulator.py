@@ -34,13 +34,11 @@ class Simulator:
         return roling_spin,roling_speed
 
     def get_sliding_speed(self)->float:
-        rebound_speed= self.Vx1 
-        - self.u * (1 + self.ey) * math.tan(self.angle) * self.Vx1
+        rebound_speed= self.Vx1 - self.u * (1 + self.ey) * math.tan(self.angle) * self.Vx1
         return rebound_speed
 
     def get_sliding_spin(self)->float:
-        rebound_spin = self.spin 
-        + (1 + self.ey) * (self.u -(self.D/self.R)) * self.Vy1/(self.a*self.R)
+        rebound_spin = self.spin + (1 + self.ey) * (self.u -(self.D/self.R)) * self.Vy1/(self.a*self.R)
         return rebound_spin
     
     def get_sliding_backwards_bounce(self)->bool:
