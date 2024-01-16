@@ -14,8 +14,6 @@ class Simulator:
         self.velocity = velocity
         self.Vx1 = math.cos(angle) * velocity
         self.Vy1 = math.sin(angle) * velocity
-        #print("angle:",math.degrees(self.angle))
-        #print("Vx1:",self.Vx1,"Vy1:",self.Vy1)
         self.spin = spin
         #koefitients
         self.u = CoSF
@@ -25,22 +23,22 @@ class Simulator:
         self.D = D
         self.a = AMC
     
-    def simulate_sliding(self):
+    def simulate_sliding(self)->tuple:
         sliding_spin = self.get_sliding_spin()
         sliding_speed = self.get_sliding_speed()
         return sliding_spin,sliding_speed
     
-    def simulate_roling(self):
+    def simulate_roling(self)->tuple:
         roling_spin = self.get_roling_spin()
         roling_speed = self.get_roling_speed()
         return roling_spin,roling_speed
 
-    def get_sliding_speed(self):
+    def get_sliding_speed(self)->float:
         rebound_speed= self.Vx1 
         - self.u * (1 + self.ey) * math.tan(self.angle) * self.Vx1
         return rebound_speed
 
-    def get_sliding_spin(self):
+    def get_sliding_spin(self)->float:
         rebound_spin = self.spin 
         + (1 + self.ey) * (self.u -(self.D/self.R)) * self.Vy1/(self.a*self.R)
         return rebound_spin
@@ -48,14 +46,12 @@ class Simulator:
     def get_sliding_backwards_bounce(self)->bool:
         return math.tan(self.angle) > 1/(self.u*(1+self.ey))
 
-    def get_roling_speed(self):
-        rebound_speed = ((1-self.a*self.ex)*self.Vx1)/(1+self.a) 
-        + (self.a*self.R*self.spin*(1+self.ex))/(1+self.a) 
-        - (self.D*self.Vy1*(1+self.ex))/(self.R*(1+self.a))
+    def get_roling_speed(self)->float:
+        rebound_speed = ((1-self.a*self.ex)*self.Vx1)/(1+self.a) + (self.a*self.R*self.spin*(1+self.ex))/(1+self.a) - (self.D*self.Vy1*(1+self.ex))/(self.R*(1+self.a))
         return rebound_speed
     
-    def get_roling_spin(self):
-        rebound_spin = ((self.a-self.ex)*self.spin)/(1+self.a) 
-        + (self.Vx1*(1+self.ex))/(self.R*(1+self.a)) 
-        - (self.D*self.Vy1*(1+self.ey))/((self.R**2)*(1+self.a))
+    def get_roling_spin(self)->float:
+        rebound_spin = ((self.a-self.ex)*self.spin)/(1+self.a) + (self.Vx1*(1+self.ex))/(self.R*(1+self.a)) - (self.D*self.Vy1*(1+self.ey))/((self.R**2)*(1+self.a))
         return rebound_spin
+    def get_roling_backwards_bounce(self)->bool:
+        return (self.R*self.spin)/self.Vx1 < -((1 - (self.a*self.ex))/(self.a*(1+self.ex)))

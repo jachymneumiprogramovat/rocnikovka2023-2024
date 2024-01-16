@@ -2,18 +2,17 @@ from simulator import Simulator
 import math
 class Data:
     def __init__(self) -> None:
-        self.spin_step = 5
-        self.velocity_step = 0.5
-        self.angle_step = 1
-
         self.spin_max = 1000
         self.spin_min = 0
+        self.spin_step = 5
 
         self.velocity_max = 10
         self.velocity_min = 1
+        self.velocity_step = 0.5
 
         self.angle_max = 90
         self.angle_min = 0
+        self.angle_step = 1
 
     def get_min_omega(self,velocity=1,angle=0,spin=0) ->dict:
         ans = {}

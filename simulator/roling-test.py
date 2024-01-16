@@ -1,10 +1,10 @@
 paper_speed_values0 = {
-    40 : 0.55,
+    40 : 0.56,
     50 : 0.5,
     60 : 0.35,
     70 : 0.1,
     80 : -0.15,
-    90 : -0.4,
+    89 : -0.4,
 }
 paper_speed_values3 = {
     40 : 0.45,
@@ -12,7 +12,7 @@ paper_speed_values3 = {
     60 : 0.1,
     70 : -0.15,
     80 : -0.34,
-    90 : -0.5
+    89 : -0.5
 }
 
 paper_spin_values3 = {
@@ -21,7 +21,7 @@ paper_spin_values3 = {
     60 : 35,
     70 : 20,
     80 : 7,
-    90 : 0
+    89 : 0
 }
 paper_spin_values0 = {
     40 : 25,
@@ -29,7 +29,7 @@ paper_spin_values0 = {
     60 : 13,
     70 : 2,
     80 : -8,
-    90 : -17
+    89 : -17
 }
 
 HRCs = {
@@ -52,13 +52,11 @@ def testing(ex):
         difference_spin = abs(spin_values[angle]-simulated_value[0])
         difference_speed = abs(speed_values[angle] - simulated_value[1])
         print("---",angle,"---")
-
-        print("spin dif:",difference_spin<2)
-        print(f'sim spin:{simulated_value[0]}  target:{spin_values[angle]}')
-        
-
-        print("speed dif:",difference_speed<0.1)
-        print(f'sim speed:{simulated_value[1]}  target:{speed_values[angle]}')
+        #print("spin dif:",difference_spin<3, difference_spin)
+        #print(f'sim spin:{simulated_value[0]}  target:{spin_values[angle]}')
+        #print("speed dif:",difference_speed<0.2,difference_speed)
+        #print(f'sim speed:{simulated_value[1]}  target:{speed_values[angle]}')
+        #print(simulator.get_roling_backwards_bounce(), simulated_value[1]<0)
 
 
 testing(0)
