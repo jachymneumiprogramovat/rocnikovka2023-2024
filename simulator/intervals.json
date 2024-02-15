@@ -1,0 +1,21 @@
+{
+    "velocity":
+    {
+        "max":30,
+        "min":0,
+        "step":0.1
+    },
+
+    "angle":
+    {
+        "max":90,
+        "min":0,
+        "step":1
+    },
+    "spin":
+    {
+        "max":200,
+        "min":0,
+        "step":1
+    }
+}
