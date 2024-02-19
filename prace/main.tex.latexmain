@@ -10,8 +10,10 @@ abstracten.tex
 introduction.tex
 conclusion.tex
 teoreticka_cast.tex
-teoreticka_cast/nejaka_zajimava_kapitola.tex
-teoreticka_cast/nejaka_zajimava_kapitola/nejaka_zajimava_sekce.tex
-teoreticka_cast/nejaka_zajimava_kapitola/dalsi_zajimava_sekce.tex
+teoreticka_cast/uvod.tex
+teoreticka_cast/popis_problemu.tex
+teoreticka_cast/popis_problemu/let_micku.tex
+teoreticka_cas/popis_problemu/odraz_micku.tex
+
 prakticka_cast.tex
 prakticka_cast/dalsi_zajimava_kapitola.tex
