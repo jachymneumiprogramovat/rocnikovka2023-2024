@@ -105,7 +105,7 @@ class Data:
         # axis labels
         plt.xlabel('velocity')
         plt.ylabel('angle')
-        plt.title('amogus')
+        plt.title('')
 
         # Minimum angles labels
         xlabels,ylabels = self.find_minimum_angle()
@@ -117,5 +117,5 @@ class Data:
 
 if __name__ == "__main__":
     data = Data("intervals.json","data.csv")
-    #data.write_data(data.output_file)
+    data.write_data(data.output_file)
     data.generate_graph()
