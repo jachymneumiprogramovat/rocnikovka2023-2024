@@ -15,6 +15,7 @@ class Data:
         self.input_file :str = input_file
         self.output_file :str = output_file
         self.__get_intervals__(self.input_file)
+        print(f'about to do aroud {self.get_calc_num()} calculations')
 
     def __get_intervals__(self,file) -> None:
         """Load min,max,step values for all the parametrs from a .json file"""
@@ -35,16 +36,26 @@ class Data:
             self.max_angle = angle_intervals["max"]
             self.min_angle = angle_intervals["min"]
             self.angle_step  = angle_intervals["step"]
-            
+    
+    def get_calc_num(self) ->int:
+        velocity = (self.max_velocity-self.min_velocity)/self.velocity_step
+        angle = (self.max_angle-self.min_angle)/self.angle_step
+        spin = (self.max_spin-self.min_spin)/self.spin_step
+        self.calc_num = velocity*angle*spin
+        return self.calc_num
+
     def get_min_spin(self) ->dict:
         """Iterate throughout all the parametrs and find for each
           of them the smallest spin for which a backward bounce occurs."""
         
         ans = {}
         for velocity in np.arange(self.min_velocity,self.max_velocity,self.velocity_step):
+            print(f'I am {(self.max_velocity/100)*velocity}% done')
+
             for angle in np.arange(self.min_angle,self.max_angle,self.angle_step):
                 for spin in np.arange(self.min_spin,self.max_spin,self.spin_step):
-                    #print all the simulator koefitiens as a legend in the graph.
+
+
                     simulator = Simulator(
                     velocity=velocity,angle=math.radians(angle),spin=-spin,
                     CoSF=0.2,VRC=0.9,HRC=0,Radius=0.025,D=0,AMC=0.4
@@ -53,6 +64,7 @@ class Data:
                     if rebound_speed<0:
                         ans[velocity,angle] = spin
                         break
+
         return ans
     
     def write_data(self,file) -> None:
@@ -102,7 +114,7 @@ class Data:
         cbar = plt.colorbar()
         cbar.set_label('minimum spin')
 
-        # axis labels
+        # axis labels 
         plt.xlabel('velocity')
         plt.ylabel('angle')
         plt.title('')
