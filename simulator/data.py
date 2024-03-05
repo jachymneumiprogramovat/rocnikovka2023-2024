@@ -113,7 +113,11 @@ class Data:
 
         plt.legend()
 
+        plt.savefig("graph.jpg")
+
         plt.show()
+
+        plt.savefig("graph.pdf")
 
 if __name__ == "__main__":
     data = Data("intervals.json","data.csv")
