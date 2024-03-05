@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2023.11.8)  5 MAR 2024 12:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2023.11.8)  5 MAR 2024 17:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1515,15 +1515,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  )
 (\end occurred when \ifx on line 30 was incomplete) 
 Here is how much of TeX's memory you used:
- 41149 strings out of 475735
- 812359 string characters out of 5784786
+ 41155 strings out of 475735
+ 812468 string characters out of 5784786
  1870759 words of memory out of 5000000
- 61134 multiletter control sequences out of 15000+600000
+ 61140 multiletter control sequences out of 15000+600000
  656166 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,11n,120p,853b,1741s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/newtx/LibertineMathMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/MinLibReg.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (25 pages, 540020 bytes).
+Output written on main.pdf (25 pages, 540265 bytes).
 PDF statistics:
  284 PDF objects out of 1000 (max. 8388607)
  234 compressed objects within 3 object streams

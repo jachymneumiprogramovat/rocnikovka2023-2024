@@ -9,14 +9,20 @@
 	\draw[thick, red, -stealth] (center) -- node[midway, left] {$\vec{v}$} (40:1.3);
 
 	%gravitace
-	\draw[thick, blue, -stealth] (center) --node[midway,right=-3pt] {$\vec{F_g}$} (-90:1.3);
+	\draw[thick, teal, -stealth] (center) --node[midway,right=-3pt] {$\vec{F_g}$} (-90:1.3);
 
 	%drag
-	\draw[thick,brown, -stealth] (center) --node[midway,left,above] {$\vec{F_d}$}
+	\draw[thick,Maroon, -stealth] (center) --node[midway,left,above] {$\vec{F_d}$}
 	 (220:1.3);
 
 	%magnus force
-	\draw[thick,green,-stealth] (center) --node[left=-3pt,midway] {$\vec{F_m}$} (90:1.3);
+	\draw[thick,blue,-stealth] (center) --node[left=-3pt,midway] {$\vec{F_m}$} (90:1.3);
 
+	%spin
+	\draw[thick,blue, -stealth] (130:1.2) arc[
+	 start angle = 130,
+	 end angle = 200,
+	 radius = 1.2
+	 ] node[midway,above,left=-3pt] {$\vec{\omega}$};
 
 \end{tikzpicture}
