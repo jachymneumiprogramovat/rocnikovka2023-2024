@@ -43,6 +43,7 @@
 
 % Graphics %
 \usepackage[dvipsnames]{xcolor}
+\usepackage{mycolors}
 \usepackage{graphicx}
 \usepackage{tikz}
 \usetikzlibrary{%
@@ -98,3 +99,9 @@ quotes
 
 % Extra custom commands %
 \newcommand{\myref}[2]{\hyperref[#2]{#1~\ref*{#2}}}
+
+\newcommand{\speed}[1]{\textcolor{velcol}{$\vec{v_{#1}}$}}
+
+\newcommand{\spin}[1]{\textcolor{spcol}{$\vec{\omega_{#1}}$}}
+
+\newcommand{\spin}[1]{\textcolor{angcol}{$\theta_{#1}$}}

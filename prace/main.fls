@@ -154,6 +154,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+INPUT ./mycolors.sty
+INPUT mycolors.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
@@ -659,5 +661,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/Libertin
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Italic.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/newtx/MinLibReg.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb

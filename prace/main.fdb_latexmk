@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1709552173 "main.bcf" "main.bbl" "main" 1709653633 0
+["biber main"] 1709552173 "main.bcf" "main.bbl" "main" 1709815322 0
   "./refs.bib" 1708362600 430 8bc4addf3077c9eb73677f20069a2633 ""
-  "main.bcf" 1709653633 107665 5affbc7352a5d22ef3eb2bf1f2b39459 "pdflatex"
+  "main.bcf" 1709815322 107665 5affbc7352a5d22ef3eb2bf1f2b39459 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1709653630 "main.tex" "main.pdf" "main" 1709653633 2
+["pdflatex"] 1709815319 "main.tex" "main.pdf" "main" 1709815322 2
   "/etc/texmf/web2c/texmf.cnf" 1685441629 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/7t.enc" 1166318018 2818 1912e6e9a42e927f73ba0dd13f54df8c ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_75t36g.enc" 1667852677 3022 13dbae1db4ca7b6d6a3611a22a194cb8 ""
@@ -54,6 +54,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb" 1667852677 686679 c9694757e607a9ea50ab3548164c170c ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/newtx/LibertineMathMI.pfb" 1569879884 35829 268d1d114c9114e541f92817aec4230d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/newtx/MinLibReg.pfb" 1381882039 38885 efa400ed1b025b7a389da3bf886695eb ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb" 1572128992 32409 1452fa0ce4fabfb48acd5d077e296f6d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb" 1635022465 56686 b959be5e2e4a0232f5aa4c1c4be4574a ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb" 1569879884 40320 53cb337366eff502cad8f44871c88e39 ""
   "/usr/share/texlive/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSans-Bold-tlf-t1.vf" 1559078491 1700 6e7ac88e1bb4baba0224d1e4fd17038c ""
@@ -273,23 +274,24 @@
   "conclusion.tex" 1708362600 166 2ce8168dabe2f3e2fe55a9382c1b2fac ""
   "data.tex" 1708366158 505 082b59da6e0aa6dc8a60a2a20c2f484c ""
   "declaration.tex" 1708362600 153 bb6a22d50b5b553db4ddb2e7265722b2 ""
-  "figs/diagram.tex" 1709653629 2284 3c3d4238b1385e0d599c3ec74a40bad3 ""
-  "figs/let-micku.tex" 1709653551 737 953a951b9c512cf78c7823e429af5b0a ""
+  "figs/diagram.tex" 1709715357 2245 b9f3f88d3129ca313eb74ed68f893932 ""
+  "figs/let-micku.tex" 1709718749 743 75fb2c2b0efb20e1a9eef7fda1e3730e ""
   "figs/logo.png" 1708362600 4572 d64efc4ba249d95c81ebe650c696c361 ""
   "introduction.tex" 1709120132 1405 b6242b00bef66a801ef3491961eb70f8 ""
-  "main.aux" 1709653633 3799 6bcd89cdfb78abe0e8b2e3e85dde6db1 "pdflatex"
+  "main.aux" 1709815322 3799 a2459eb2aa7320c43d4b1a7438e1bcb8 "pdflatex"
   "main.bbl" 1709552174 1613 99ba4206146f65b386acddc4c607983c "biber main"
-  "main.out" 1709653633 1481 23fe0640dbd9651f6fcab26a061a1817 "pdflatex"
-  "main.run.xml" 1709653633 2334 3c2fbc38dacc9a05f4c51ebda1ee269f "pdflatex"
+  "main.out" 1709815322 1481 23fe0640dbd9651f6fcab26a061a1817 "pdflatex"
+  "main.run.xml" 1709815322 2334 3c2fbc38dacc9a05f4c51ebda1ee269f "pdflatex"
   "main.tex" 1709296412 972 87752c64e7d949c0fabd54d33d292c87 ""
-  "main.toc" 1709653633 901 43d4c427df9e3e08fb97fed265b4fda7 "pdflatex"
+  "main.toc" 1709815322 901 29063f1f921743981831805052da2444 "pdflatex"
+  "mycolors.sty" 1709718718 289 1984fb7e22dd8d67fe118d872c1c9e30 ""
   "prakticka_cast.tex" 1708362600 101 60f492ba4aefe6c2ced64885d2d907b9 ""
   "prakticka_cast/dalsi_zajimava_kapitola.tex" 1708362600 141 b4b39c0731418c3ddca07679444ab6c0 ""
-  "preamble.tex" 1709120614 1794 cf42ff929811762dd82e0fd82e35000b ""
+  "preamble.tex" 1709728827 1997 cbe5803060084f9abccedb93b9ccf10a ""
   "teoreticka_cast.tex" 1709120132 1285 3ecc5cacfa5dee7143668d79950e6acd ""
   "teoreticka_cast/popis_problemu.tex" 1709120132 972 2180373df52e4c122763fddb28f4ed2a ""
-  "teoreticka_cast/popis_problemu/let_micku.tex" 1709652317 2664 5c2e5b9270a348f6e193727714a7092e ""
-  "teoreticka_cast/popis_problemu/odraz_micku.tex" 1709121377 170 ffd5738b00ca08fd4b37b082810108c8 ""
+  "teoreticka_cast/popis_problemu/let_micku.tex" 1709815294 3797 229e9553f1ea533bea12b9aac501030c ""
+  "teoreticka_cast/popis_problemu/odraz_micku.tex" 1709815318 157 f4619075cf9cbf6a67c9c9f0bd3f4720 ""
   "titlepage.tex" 1708362600 1149 d864578bed296ea334393e8c8db1e7e5 ""
   (generated)
   "main.aux"
