@@ -1,5 +1,5 @@
 \section{Let Míčku}
-\label{ssec:let-micku}
+\label{sec:let-micku}
 Let míčku se často zjednodušuje a zanedbávají se některé síly, které na letící
 míček působí. Když uvážíme jen gravitaci zjistíme, že by míček za letu měl
 dráhou opsat parabolu. Pro kratší dobu letu a velkou rychlost tento předpoklad
@@ -11,11 +11,19 @@ Tyto síly můžeme vidět na rovnici \myref{rovnici}{eq:Newton} a na
 zákon. 
 \begin{equation}
  \label{eq:Newton}
- \textcolor{teal}{\vec{F_g}} + \textcolor{velcol}{\vec{v}} +
+ \textcolor{velcol}{\vec{v}} + \textcolor{teal}{\vec{F_g}} +
  \textcolor{drcol}{\vec{F_d}} + \textcolor{spcol}{\vec{F_m}} = m \vec{a}
 \end{equation}
+Kde:
+\begin{itemize}
+  \item[$\textcolor{velcol}{\vec{v}}$] Rychlost
+  \item[$\textcolor{teal}{\vec{F_g}}$] Gravitace
+  \item[$\textcolor{drcol}{\vec{F_d}}$] Odpor vzduchu (drag)
+  \item[$\textcolor{spcol}{\vec{F_m}}$] Magnusova síla
+\end{itemize}
 
-Již zmíněné síly budou v této sekci podrobněji popsány.
+Síly působící na letící míček v průběhu budou podrobněji popsané dále v této
+sekci.
 
 \begin{figure}[htbp]
  \centering
@@ -41,20 +49,26 @@ Magnusův. Tomu je věnována \myref{podsekce}{ssec:magnusova-sila}.
 \subsection{Gravitační síla}
 \label{ssec:gravitacni-sila}
 
-Gravitační nebo také tíhová síla (\textcolor{grcol}{$F_g$}) je hned po rychlosti
+Gravitační a v tomto případě můžeme říci i tíhová síla\footnote{Gravitační a
+ tíhová jsou obecně odlišné síly a v některých případech je nutné je tak vnímat. Toto ovšem
+není jeden z nich proto je můžeme
+zaměnit.\autocite{reichlEncyklopedieFyziky2006} Dále bude používán jen termín
+gravitační síla.} (\textcolor{grcol}{$F_g$}) je hned po rychlosti
 nejdůležitější sílou v průběhu pohybu míčku. A spolu s rychlostí nejviditelněji
 tvoří rajektorii míčku.
 
 Gravitace je také nejjednoduší na modelování. Dokud můžeme pro celou trajektorii
 považovat Zemi za lokálně plochou, gravitační síla míří vždy směrem kolmů dolů.
 Také její amplituda bývá většinou konstantní, protože není časté, že by míček
-během letu měnil svojí váhu a změna v nadmořské výšce je zpravidla zanedbatelná.
+během letu měnil svojí hmotnost a gravitační zrychlení se také nemění.
 
-Matematicky můžeme velikost gravitační síly vyjádřit jako:
+Matematicky můžeme z 2. Newtonova zákona velikost gravitační síly vyjádřit
+jako:
 \[
- \textcolor{grcol}{F_g} = G\frac{m}{h}
+ \textcolor{grcol}{F_g} = mg
 \]
-Kde $G$ je gravitační konstanta, $m$ je váha míčku a $h$ je nadmořská výška.
+Kde $g$ je gravitační zrychlení (často zaokrouhlováno na $10~m/s$) a $m$ je
+hmotnost míčku.
 
 Z této rovnice je ještě jednodušší nahlédnout na fakt, že gravitační síla je pro
 náš případ konstantní. 
@@ -63,10 +77,14 @@ náš případ konstantní.
 \subsection{Odpor vzduchu}
 \label{ssec:odpor-vzduchu}
 
-Odpor vzduchu (\textcolor{drcol}{$F_d$}) je často zanedbáván a to kvůli své
-relativní složitosti oproti již zmíněné gravitační síle. Odpor vzduchu je totiž
-obecně závyslí na rychlosti a ploše, která aktivně do vzduchu naráží. V případě
-míčku se mění jen rychlost stále se ovšem jedná o složitou sílu na implementaci.
+Odpor vzduchu (\textcolor{drcol}{$F_d$}) si můžeme dovolit zanedbat, protože
+zkoumáme jen velmi krátký let. Kdyby se jednalo například o dlouhé odpaly v
+baseballu, tehdy již odpor vzduchu zanedbatelný není.
+
+Narozdíl od gravitační síly, odpor vzduchu není konstantní v průběhu letu. Odpor
+vzduchu je totiž obecně závyslí na rychlosti a ploše, která aktivně do vzduchu
+naráží. V případě koule se mění jen rychlost. Což o hodně zjednodušuje výsledný
+výpočet. 
 
 Směr odporu vzduchu je vždy opačný ke směru pohybu jak můžeme vidět na
 \myref{obrázku}{fig:let-micku}. Velikost odporu závysí
@@ -77,12 +95,16 @@ kromě dalších koeficientů hlavně na kvadrátu rychlosti.
 \label{ssec:magnusova-sila}
 
 Magnusova síla (\textcolor{spcol}{$F_m$}) vzniká díky rotaci a vzájemnému tření
-mezi míčkem a vzduchem (předpokládáme vzduch bez vlastní rychlosti). Směr magnusovy síly na \myref{obrázku}{fig:let-micku} je
-specifický pro aktuální případ. Směr Magnusovi síly závisý na úhlové rychlost
-(\spin{1}). Jestliže \spin{1}$<0$ tak Magnusova síla míří směrem nahoru a v
-opačném případě dolů.
+mezi míčkem a vzduchem (předpokládáme vzduch bez vlastní rychlosti). Intuitivním
+vysvětlením tohoto fenoménu je, že rotací a třením se vzduch posouvá po směru
+rotace, a z 3. Newtonova zákona plyne, že vzduch by měl opačnou silou působit
+zpět. Magnusův efekt je znát pouze je-li hmotnost míčku dostatečně malá nebo
+úhlová rychlost dostatečně
+velká.\autocite{universityMagnusEffectThermodynamics}
 
-Intuitivním vysvětlením tohoto fenoménu je, že rotací míček tlačí směrem nahoru,
-respektive dolů, a z 3. Newtonova zákonu tedy rozumíme, že vzduch naopak tlačí
-míček dolů, respektive nahoru.
-
+Směr $\textcolor{spcol}{\vec{F_m}}$ na \myref{obrázku}{fig:let-micku} je specifický pro aktuální
+případ.\footnote{Předpokládáme pouze backspin, jak bude zmíněno v kapitole
+[triviální případy] je to jedna z podmínek zpětného odrazu.} Směr Magnusovi síly
+závisý na úhlové rychlost (\spin{1}). Nejen svojí velikostí, ale i směrem.
+Jestliže \spin{1}$<0$ tak Magnusova síla míří směrem nahoru a v opačném případě
+dolů.\autocite{AerospaceMicroLesson22}

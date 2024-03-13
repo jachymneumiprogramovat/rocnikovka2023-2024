@@ -19,36 +19,115 @@
 
 \refsection{0}
   \datalist[entry]{ynt/global//global/global}
-    \entry{latex2e}{book}{}
-      \name{author}{1}{}{%
-        {{hash=5d77435450d10a850a5b58577b9a456b}{%
-           family={Lamport},
-           familyi={L\bibinitperiod},
-           given={Leslie},
-           giveni={L\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Massachusetts}%
+    \entry{reichlEncyklopedieFyziky2006}{online}{}
+      \name{author}{2}{}{%
+        {{hash=12c09556c4fa68b82dcc874c6090ec97}{%
+           family={Reichl},
+           familyi={R\bibinitperiod},
+           given={Jaroslav},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f3d828f9eea58b746ac07460dfe32592}{%
+           family={Všetička},
+           familyi={V\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Addison Wesley}%
+        {Jaroslav Reichl}%
       }
-      \strng{namehash}{5d77435450d10a850a5b58577b9a456b}
-      \strng{fullhash}{5d77435450d10a850a5b58577b9a456b}
-      \strng{bibnamehash}{5d77435450d10a850a5b58577b9a456b}
-      \strng{authorbibnamehash}{5d77435450d10a850a5b58577b9a456b}
-      \strng{authornamehash}{5d77435450d10a850a5b58577b9a456b}
-      \strng{authorfullhash}{5d77435450d10a850a5b58577b9a456b}
-      \field{labelalpha}{Lam94}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \strng{namehash}{ad23ea17f1c65ca19fb99d129d85e27e}
+      \strng{fullhash}{ad23ea17f1c65ca19fb99d129d85e27e}
+      \strng{bibnamehash}{ad23ea17f1c65ca19fb99d129d85e27e}
+      \strng{authorbibnamehash}{ad23ea17f1c65ca19fb99d129d85e27e}
+      \strng{authornamehash}{ad23ea17f1c65ca19fb99d129d85e27e}
+      \strng{authorfullhash}{ad23ea17f1c65ca19fb99d129d85e27e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{2}
-      \field{title}{{\LaTeX}: a Document Preparation System}
-      \field{year}{1994}
+      \field{abstract}{Encyklopedie fyziky vydávaná formou průběžně aktualizovaných webových stránek}
+      \field{langid}{czech}
+      \field{title}{Encyklopedie fyziky}
+      \field{type}{Text}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/jj/snap/zotero-snap/common/Zotero/storage/NKH4VA2R/60-gravitacni-a-tihova-sila-resp-zrychleni.html
+      \endverb
+      \verb{urlraw}
+      \verb http://fyzika.jreichl.com/main.article/view/60-gravitacni-a-tihova-sila-resp-zrychleni
+      \endverb
+      \verb{url}
+      \verb http://fyzika.jreichl.com/main.article/view/60-gravitacni-a-tihova-sila-resp-zrychleni
+      \endverb
+    \endentry
+    \entry{AerospaceMicroLesson22}{online}{}
+      \list{organization}{1}{%
+        {www}%
+      }
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Magnus Effect}
+      \field{langid}{english}
+      \field{title}{Aerospace {{Micro-Lesson}} \#22}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/jj/snap/zotero-snap/common/Zotero/storage/UQRWAX6Z/Aerospace-Micro-Lesson-22.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.aiaa.org/detail/lesson/Aerospace-Micro-Lesson-22
+      \endverb
+      \verb{url}
+      \verb https://www.aiaa.org/detail/lesson/Aerospace-Micro-Lesson-22
+      \endverb
+    \endentry
+    \entry{universityMagnusEffectThermodynamics}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6dd772b9d32255490cfdb7c021e71ff4}{%
+           family={University},
+           familyi={U\bibinitperiod},
+           given={Seattle},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Seattle University}%
+      }
+      \strng{namehash}{6dd772b9d32255490cfdb7c021e71ff4}
+      \strng{fullhash}{6dd772b9d32255490cfdb7c021e71ff4}
+      \strng{bibnamehash}{6dd772b9d32255490cfdb7c021e71ff4}
+      \strng{authorbibnamehash}{6dd772b9d32255490cfdb7c021e71ff4}
+      \strng{authornamehash}{6dd772b9d32255490cfdb7c021e71ff4}
+      \strng{authorfullhash}{6dd772b9d32255490cfdb7c021e71ff4}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Magnus {{Effect}} | {{Thermodynamics}} | {{Physics Demos}} | {{Physics}} | {{College}} of {{Science}} and {{Engineering}}}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/jj/snap/zotero-snap/common/Zotero/storage/KC5R3674/magnus-effect.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.seattleu.edu/scieng/physics/physics-demos/thermodynamics/magnus-effect/
+      \endverb
+      \verb{url}
+      \verb https://www.seattleu.edu/scieng/physics/physics-demos/thermodynamics/magnus-effect/
+      \endverb
     \endentry
   \enddatalist
+  \missing{latex2e}
 \endrefsection
 \endinput
 

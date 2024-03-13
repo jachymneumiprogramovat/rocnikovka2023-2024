@@ -70,8 +70,8 @@ quotes
 % Bibliography %
 \usepackage[
  backend=biber,
- style=alphabetic,
- sorting=ynt
+ style=numeric-comp,
+ sorting = ynt
 ]{biblatex}
 \addbibresource{refs.bib}
 
@@ -104,4 +104,5 @@ quotes
 
 \newcommand{\spin}[1]{\textcolor{spcol}{$\vec{\omega_{#1}}$}}
 
-\newcommand{\spin}[1]{\textcolor{angcol}{$\theta_{#1}$}}
+
+\renewcommand{\angle}[1]{\textcolor{angcol}{$\theta_{#1}$}}

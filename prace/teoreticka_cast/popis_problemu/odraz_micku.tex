@@ -1,11 +1,50 @@
 \section{Odraz míčku}
 \label{sec:odraz-micku}
 
+Samotný odraz je pro tuto práci nejdůležitější. Tedy bude probrán velmi
+podrobně. Důležitým předpokladem je, že \speed{1} a \spin{1} jsou hodnoty přímo
+před odrazem. Díky tomuto předpokladu nemusíme uvažovat let míčku
+popsaný v \myref{sekci}{sec:let-micku} ani jeho letové vlastnosti.
+
+Problém je i tak stále velmi komplexní, protože na odraz má vliv hned několik
+proměných. Ty společně s charakteristikou celé odrazové periody budou popsány v
+této sekci.
+
+Obecně se všechny proměné v tomto problému dají rozřadit do tří kategorií:
+
+\begin{description}
+ \item[Nezávislé] Pro tuto práci to jsou: \speed{1},~\spin{1} a \angle{1}.
+ \item[Závisé] Analogicky se jedná o: \speed{2},~\spin{2} a \angle{2}.
+ \item[Kontrolované] Jde především o materiálové konstanty:
+  verikální/horizontální koeficient restituce ($e_{y/x}$), koeficient smýkavého
+ tření ($\mu$), poloměr ($R$), koeficient momentu hybnosti ($\alpha$),
+ vzdálenost geometrického středu od působení normálové síly ($D$).
+\end{description}
+
+Závislé a nezávislé proměné jsou znázorněné na \myref{obrázku}{fig:odraz-micku}.
+Nezávislé jsou proměné před odrazem a na nich závisí proměné po odraze.
+Kontrolované proměné na \myref{obrázku}{fig:odraz-micku} nejsou, ale stále je
+důležité je uvést pro replikovatelnost výsledků. Také budou z pravidla přebírány
+z odborné literatury, a tedy nebudou mnou měřené. 
 
 \begin{figure}[htbp]
  \centering
  \input{figs/diagram.tex}
 
- \caption{ball}
- \label{fig:ball}
+ \caption{Síly a veličiny působící na míček při odrazu}
+ \label{fig:odraz-micku}
 \end{figure}
+
+\subsection{Koeficienty restituce}
+\label{ssec:koeficienty-restituce}
+elasticita odrazu 
+
+\subsection{Moment hybnosti}
+\label{ssec:moment-hybnosti}
+jak moc Déčko reálně ovlivňuje spin
+
+\subsection{Tření po dobu odrazu}
+\label{ssec:treni-po-dobu-odrazu}
+otačí se podle toho jestli převládá spin nebo speed
+
+

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2023.11.8)  7 MAR 2024 13:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2023.11.8)  13 MAR 2024 21:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -914,7 +914,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'alphabetic.dbx' not found.
+Package biblatex Info: ... file 'numeric-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count397
@@ -1022,26 +1022,35 @@ File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 \biburllcskip=\muskip21
 \c@smartand=\count473
 )
-Package biblatex Info: Trying to load bibliography style 'alphabetic'...
-Package biblatex Info: ... file 'alphabetic.bbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/alphabetic.bbx
-File: alphabetic.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count474
 \c@bbx:relatedtotal=\count475
-))
-Package biblatex Info: Trying to load citation style 'alphabetic'...
-Package biblatex Info: ... file 'alphabetic.cbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/alphabetic.cbx
-File: alphabetic.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+)))
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count476
+\c@cbx@tempcntb=\count477
+\c@cbx@tempcntc=\count478
+\c@cbx@tempcntd=\count479
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Redefining '\cites'.
@@ -1077,18 +1086,18 @@ Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
 \caption@hangindent=\dimen336
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count476
-\c@continuedfloat=\count477
+\c@caption@flags=\count480
+\c@continuedfloat=\count481
 Package caption Info: hyperref package is loaded.
 ) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 239.
-\c@subfigure=\count478
+\c@subfigure=\count482
 Package caption Info: New subtype `subtable' on input line 239.
-\c@subtable=\count479
+\c@subtable=\count483
 ) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count480
+\c@float@type=\count484
 \float@exts=\toks63
 \float@box=\box77
 \@float@everytoks=\toks64
@@ -1099,28 +1108,13 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@outerparindent=\dimen337
 \enit@toks=\toks65
 \enit@inbox=\box79
-\enit@count@id=\count481
-\enitdp@description=\count482
+\enit@count@id=\count485
+\enitdp@description=\count486
 ) (/usr/share/texlive/texmf-dist/tex/latex/regexpatch/regexpatch.sty
 Package: regexpatch 2021/03/21 v0.2f Extending etoolbox patching commands
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-)
-
-./preamble.tex:107: LaTeX Error: Command \spin already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.107 ...in}[1]{\textcolor{angcol}{$\theta_{#1}$}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) (./data.tex)
+)) (./data.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1212,22 +1206,22 @@ Package translations Info: no dictionary file `translations-basic-dictionary-cze
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 5.
-\c@mv@tabular=\count483
-\c@mv@boldtabular=\count484
+\c@mv@tabular=\count487
+\c@mv@boldtabular=\count488
 LaTeX Info: Command `\dddot' is already robust on input line 5.
 LaTeX Info: Command `\ddddot' is already robust on input line 5.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count485
+\scratchcounter=\count489
 \scratchdimen=\dimen338
 \scratchbox=\box80
-\nofMPsegments=\count486
-\nofMParguments=\count487
+\nofMPsegments=\count490
+\nofMParguments=\count491
 \everyMPshowfont=\toks66
-\MPscratchCnt=\count488
+\MPscratchCnt=\count492
 \MPscratchDim=\dimen339
-\MPnumerator=\count489
-\makeMPintoPDFobject=\count490
+\MPnumerator=\count493
+\makeMPintoPDFobject=\count494
 \everyMPtoPDFconversion=\toks67
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1257,7 +1251,15 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
+ (./main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                latex2e
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 5.
 Package biblatex Info: Reference segment=0 on input line 5.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1384,70 +1386,14 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
  (./introduction.tex [7] [8
 
 ]
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 8.8pt on input line 9.
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 10.
-LaTeX Font Info:    Font shape `OT1/minlibertine/m/n' will be
-(Font)              scaled to size 10.0pt on input line 10.
-LaTeX Font Info:    Font shape `OT1/minlibertine/m/n' will be
-(Font)              scaled to size 7.3pt on input line 10.
-LaTeX Font Info:    Font shape `OT1/minlibertine/m/n' will be
-(Font)              scaled to size 5.5pt on input line 10.
-LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
-(Font)              scaled to size 10.0pt on input line 10.
-LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
-(Font)              scaled to size 7.3pt on input line 10.
-LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
-(Font)              scaled to size 5.5pt on input line 10.
-LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 10.0pt on input line 10.
-LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 7.3pt on input line 10.
-LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 5.5pt on input line 10.
-LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 10.0pt on input line 10.
-LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 7.3pt on input line 10.
-LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 5.5pt on input line 10.
-LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 10.0pt on input line 10.
-LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 7.3pt on input line 10.
-LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 5.5pt on input line 10.
-LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 10.0pt on input line 10.
-LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 7.3pt on input line 10.
-LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 5.5pt on input line 10.
-LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 10.
-LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 7.3pt on input line 10.
-LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 5.5pt on input line 10.
-LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 10.0pt on input line 10.
-LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 7.3pt on input line 10.
-LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 5.5pt on input line 10.
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 10.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 20.
+(Font)              scaled to size 12.0pt on input line 18.
 ) (./teoreticka_cast.tex [9{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_nufysp.enc}] [10
 
 ] [11] [12] (./teoreticka_cast/popis_problemu.tex [13{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/7t.enc}] [14
 
 ]
 Kapitola 1.
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 6.6pt on input line 15.
 (./teoreticka_cast/popis_problemu/let_micku.tex
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
 (Font)              scaled to size 17.28pt on input line 1.
@@ -1455,7 +1401,61 @@ LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
 (Font)              scaled to size 17.28pt on input line 1.
 LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/b/n' will be
 (Font)              scaled to size 17.28pt on input line 1.
- (./figs/let-micku.tex) [15]) (./teoreticka_cast/popis_problemu/odraz_micku.tex (./figs/diagram.tex
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 8.8pt on input line 6.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 6.
+LaTeX Font Info:    Font shape `OT1/minlibertine/m/n' will be
+(Font)              scaled to size 10.0pt on input line 6.
+LaTeX Font Info:    Font shape `OT1/minlibertine/m/n' will be
+(Font)              scaled to size 7.3pt on input line 6.
+LaTeX Font Info:    Font shape `OT1/minlibertine/m/n' will be
+(Font)              scaled to size 5.5pt on input line 6.
+LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
+(Font)              scaled to size 10.0pt on input line 6.
+LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
+(Font)              scaled to size 7.3pt on input line 6.
+LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
+(Font)              scaled to size 5.5pt on input line 6.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 10.0pt on input line 6.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 7.3pt on input line 6.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 5.5pt on input line 6.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 10.0pt on input line 6.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 7.3pt on input line 6.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 5.5pt on input line 6.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 10.0pt on input line 6.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 7.3pt on input line 6.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 5.5pt on input line 6.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 10.0pt on input line 6.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 7.3pt on input line 6.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 5.5pt on input line 6.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 10.0pt on input line 6.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 7.3pt on input line 6.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 5.5pt on input line 6.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 10.0pt on input line 6.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 7.3pt on input line 6.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 5.5pt on input line 6.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 7.3pt on input line 6.
+ (./figs/let-micku.tex) [15] [16]) (./teoreticka_cast/popis_problemu/odraz_micku.tex (./figs/diagram.tex
 
 ./figs/diagram.tex:51: Package tikz Error: A node must have a (possibly empty) label text.
 
@@ -1492,9 +1492,9 @@ l.68 	\node
            [fill=black,circle,inner sep=0pt, minimum size=3pt](naraz) at (3,-3)
 (That was another \errmessage.)
 
-)))) (./prakticka_cast.tex [16] [17] [18
+) [17]))) (./prakticka_cast.tex [18] [19
 
-] [19] [20] (./prakticka_cast/dalsi_zajimava_kapitola.tex
+] [20] (./prakticka_cast/dalsi_zajimava_kapitola.tex
 Kapitola 2.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1504,44 +1504,94 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22])) (./conclusion.tex [23] [24
+ [22]
+
+LaTeX Warning: Citation 'latex2e' on page 23 undefined on input line 6.
+
+)) (./conclusion.tex [23] [24
 
 ])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25] [26]
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
-(Font)              scaled to size 8.8pt on input line 48.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/sc' will be
+(Font)              scaled to size 12.0pt on input line 48.
+LaTeX Font Info:    Trying to load font information for T1+LibertinusMono-TLF on input line 48.
+ (/usr/share/texlive/texmf-dist/tex/latex/libertinus-type1/T1LibertinusMono-TLF.fd
+File: T1LibertinusMono-TLF.fd 2022/11/07 (autoinst) Font definitions for T1/LibertinusMono-TLF.
+)
+LaTeX Font Info:    Font shape `T1/LibertinusMono-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 48.
+
+Overfull \hbox (18.79669pt too wide) in paragraph at lines 48--48
+[]\T1/LibertinusSerif-TLF/m/n/12 Jaroslav Re-ichl a Mar-tin V²e-ti£ka. \T1/LibertinusSerif-TLF/m/it/12 En-cy-klo-pe-die fy-ziky\T1/LibertinusSerif-TLF/m/n/12 . 2006. \T1/LibertinusSerif-TLF/m/sc/12 url\T1/LibertinusSerif-TLF/m/n/12 : [][]$\T1/LibertinusMono-TLF/m/n/12 http : / / fyzika .
+ []
+
+
+Overfull \hbox (8.12212pt too wide) in paragraph at lines 48--48
+\T1/LibertinusMono-TLF/m/n/12 jreichl . com / main . article / view / 60 -[] gravitacni -[] a -[] tihova -[]
+ []
+
+
+Overfull \hbox (3.54106pt too wide) in paragraph at lines 48--48
+[]\T1/LibertinusSerif-TLF/m/it/12 Aerospace Micro-Lesson #22\T1/LibertinusSerif-TLF/m/n/12 . www. \T1/LibertinusSerif-TLF/m/sc/12 url\T1/LibertinusSerif-TLF/m/n/12 : [][]$\T1/LibertinusMono-TLF/m/n/12 https : / / www . aiaa . org / detail /
+ []
+
+
+Overfull \hbox (1.47693pt too wide) in paragraph at lines 48--48
+[]\T1/LibertinusSerif-TLF/m/n/12 Seattle Uni-ver-sity. \T1/LibertinusSerif-TLF/m/it/12 Mag-nus Ef-fect | Ther-mo-dy-na-mics | Phy-s-ics De-mos | Phy-s-ics | College
+ []
+
+
+Overfull \hbox (2.08185pt too wide) in paragraph at lines 48--48
+\T1/LibertinusSerif-TLF/m/it/12 of Science and En-gi-nee-ring\T1/LibertinusSerif-TLF/m/n/12 . Se-attle Uni-ver-sity. \T1/LibertinusSerif-TLF/m/sc/12 url\T1/LibertinusSerif-TLF/m/n/12 : [][]$\T1/LibertinusMono-TLF/m/n/12 https : / / www . seattleu .
+ []
+
+
+Overfull \hbox (22.4821pt too wide) in paragraph at lines 48--48
+\T1/LibertinusMono-TLF/m/n/12 edu / scieng / physics / physics -[] demos / thermodynamics / magnus -[]
+ []
+
 \tf@thm=\write7
 \openout7 = `main.thm'.
 
- [27
+[27
 
-] (./main.aux)
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_cb34qf.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_tll2u3.enc}] (./main.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2021/03/21>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 23FE0640DBD9651F6FCAB26A061A1817;1481.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 23FE0640DBD9651F6FCAB26A061A1817;1481
+(rerunfilecheck)             After:  93511AF80B753BE0C8CA94A90248614F;1968.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  )
 (\end occurred when \ifx on line 30 was incomplete) 
 Here is how much of TeX's memory you used:
- 41181 strings out of 475735
- 812941 string characters out of 5784786
- 1868759 words of memory out of 5000000
- 61161 multiletter control sequences out of 15000+600000
- 656166 words of font info for 134 fonts, out of 8000000 for 9000
+ 41306 strings out of 475735
+ 816601 string characters out of 5784786
+ 1873759 words of memory out of 5000000
+ 61269 multiletter control sequences out of 15000+600000
+ 650736 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,11n,120p,853b,1741s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/LibertineMathMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/MinLibReg.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (27 pages, 544125 bytes).
+ 89i,11n,120p,853b,2145s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/LibertineMathMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusMono-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/MinLibReg.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
+Output written on main.pdf (27 pages, 575392 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
- 245 compressed objects within 3 object streams
- 70 named destinations out of 1000 (max. 500000)
+ 332 PDF objects out of 1000 (max. 8388607)
+ 275 compressed objects within 3 object streams
+ 76 named destinations out of 1000 (max. 500000)
  114 words of extra memory for PDF output out of 10000 (max. 10000000)
 
