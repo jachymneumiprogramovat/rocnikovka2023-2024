@@ -7,23 +7,23 @@ před odrazem. Díky tomuto předpokladu nemusíme uvažovat let míčku
 popsaný v \myref{sekci}{sec:let-micku} ani jeho letové vlastnosti.
 
 Problém je i tak stále velmi komplexní, protože na odraz má vliv hned několik
-proměných. Ty společně s charakteristikou celé odrazové periody budou popsány v
+proměnných. Ty společně s charakteristikou celé odrazové periody budou popsány v
 této sekci.
 
-Obecně se všechny proměné v tomto problému dají rozřadit do tří kategorií:
+Obecně se všechny proměnné v tomto problému dají rozřadit do tří kategorií:
 
 \begin{description}
  \item[Nezávislé] Pro tuto práci to jsou: \speed{1},~\spin{1} a \angle{1}.
- \item[Závisé] Analogicky se jedná o: \speed{2},~\spin{2} a \angle{2}.
+ \item[Závislé] Analogicky se jedná o: \speed{2},~\spin{2} a \angle{2}.
  \item[Kontrolované] Jde především o materiálové konstanty:
-  verikální/horizontální koeficient restituce ($e_{x/y}$), koeficient smýkavého
+  vertikální/horizontální koeficient restituce ($e_{x/y}$), koeficient smýkavého
  tření ($\mu$), poloměr ($R$), koeficient momentu hybnosti ($\alpha$),
  vzdálenost geometrického středu od působení normálové síly ($D$).
 \end{description}
 
-Závislé a nezávislé proměné jsou znázorněné na \myref{obrázku}{fig:odraz-micku}.
-Nezávislé jsou proměné před odrazem a na nich závisí proměné po odraze.
-Kontrolované proměné na \myref{obrázku}{fig:odraz-micku} nejsou, ale stále je
+Závislé a nezávislé proměnné jsou znázorněné na \myref{obrázku}{fig:odraz-micku}.
+Nezávislé jsou proměnné před odrazem a na nich závisí proměnné po odraze.
+Kontrolované proměnné na \myref{obrázku}{fig:odraz-micku} nejsou, ale stále je
 důležité je uvést pro replikovatelnost výsledků. Také budou z pravidla přebírány
 z odborné literatury, a tedy nebudou v této práci měřené.
 
@@ -56,13 +56,14 @@ plocha vykonají za dobu odrazu. Pro jednoduchost bude $e$ zaveden podle Newtona
 následovně\autocite{ahmadImpactModelsCoefficient2016}:
 $e =  \textcolor{velcol}{v_1}/\textcolor{velcol}{v_2}$.
 
-Rozdělení $e$ na jeho vertikální a tečnou koponentu můžme vydět na
-\myref{rovnici}{eq:COR}. Narozdíl od $e_y$ není definice $e_x$ intuitivní. 
+Rozdělení $e$ na jeho vertikální a tečnou komponentu můžeme vidět na
+\myref{rovnici}{eq:COR}. Na rozdíl od $e_y$ není definice $e_x$ intuitivní. 
 
-\begin{equation} \label{eq:COR}
+\begin{equation} 
+ \label{eq:COR}
  \begin{align}
-  e_y &= \frac{\textcolor{velcol}{v_{y2}}}{\textcolor{velcol}{v_{y1}}} \\
-  e_x &= -\frac{(\textcolor{velcol}{v_{x2}}-R\textcolor{spcol}{\omega_2})}{(\textcolor{velcol}{v_{x1}}-R\textcolor{spcol}{\omega_1})}
+  %e_y &= \frac{\textcolor{velcol}{v_{y2}}}{\textcolor{velcol}{v_{y1}}} \\
+ % e_x &= -\frac{(\textcolor{velcol}{v_{x2}}-R\textcolor{spcol}{\omega_2})}{(\textcolor{velcol}{v_{x1}}-R\textcolor{spcol}{\omega_1})}
  \end{align}
 \end{equation}
 
@@ -77,10 +78,10 @@ jak moc Déčko reálně ovlivňuje spin ($D$ a $\alpha$)
 
 \subsection{Tření po dobu odrazu}
 \label{ssec:treni-po-dobu-odrazu}
-otačí se podle toho jestli převládá spin nebo speed ($\mu$)
+otáčí se podle toho jestli převládá spin nebo speed ($\mu$)
 
-\subsection{Trivální případy}
-\label{ssec:trivalni-pripady}
+\subsection{Triviální případy}
+\label{ssec:trivialni-pripady}
 
 
 
