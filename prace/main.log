@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2023.11.8)  13 MAR 2024 21:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2023.11.8)  15 MAR 2024 13:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1251,15 +1251,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                latex2e
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (./main.bbl)
 Package biblatex Info: Reference section=0 on input line 5.
 Package biblatex Info: Reference segment=0 on input line 5.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1274,7 +1266,7 @@ LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 3.
 LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/m/n' will be
 (Font)              scaled to size 20.74pt on input line 19.
-<figs/logo.png, id=55, 218.31563pt x 153.57375pt>
+<figs/logo.png, id=71, 218.31563pt x 153.57375pt>
 File: figs/logo.png Graphic file (type png)
 <use figs/logo.png>
 Package pdftex.def Info: figs/logo.png  used on input line 22.
@@ -1301,7 +1293,7 @@ LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/b/n' will be
 
 ] (./abstractcz.tex
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 9.
+(Font)              scaled to size 12.0pt on input line 8.
 ) [4
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_sfissr.enc}] (./abstracten.tex) [5
@@ -1390,7 +1382,7 @@ LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
 (Font)              scaled to size 12.0pt on input line 18.
 ) (./teoreticka_cast.tex [9{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_nufysp.enc}] [10
 
-] [11] [12] (./teoreticka_cast/popis_problemu.tex [13{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/7t.enc}] [14
+] [11] [12] (./teoreticka_cast/popis_problemu.tex [13] [14
 
 ]
 Kapitola 1.
@@ -1455,7 +1447,7 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 (Font)              scaled to size 5.5pt on input line 6.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
 (Font)              scaled to size 7.3pt on input line 6.
- (./figs/let-micku.tex) [15] [16]) (./teoreticka_cast/popis_problemu/odraz_micku.tex (./figs/diagram.tex
+ (./figs/let-micku.tex) [15] [16{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/7t.enc}]) (./teoreticka_cast/popis_problemu/odraz_micku.tex (./figs/diagram.tex
 
 ./figs/diagram.tex:51: Package tikz Error: A node must have a (possibly empty) label text.
 
@@ -1492,28 +1484,39 @@ l.68 	\node
            [fill=black,circle,inner sep=0pt, minimum size=3pt](naraz) at (3,-3)
 (That was another \errmessage.)
 
-) [17]))) (./prakticka_cast.tex [18] [19
+) [17]
+
+LaTeX Warning: Hyper reference `eq:COR' on page 18 undefined on input line 60.
+
+
+LaTeX Warning: Reference `eq:COR' on page 18 undefined on input line 60.
+
+
+./teoreticka_cast/popis_problemu/odraz_micku.tex:66: Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66  \end{align}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 69.
+))) (./prakticka_cast.tex [18] [19
 
 ] [20] (./prakticka_cast/dalsi_zajimava_kapitola.tex
 Kapitola 2.
+)) (./conclusion.tex [21
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+] [22
 
- [21
+]) [23] [24
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22]
-
-LaTeX Warning: Citation 'latex2e' on page 23 undefined on input line 6.
-
-)) (./conclusion.tex [23] [24
-
-])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25] [26]
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 48.
 LaTeX Font Info:    Trying to load font information for T1+LibertinusMono-TLF on input line 48.
@@ -1538,6 +1541,16 @@ Overfull \hbox (3.54106pt too wide) in paragraph at lines 48--48
  []
 
 
+Overfull \hbox (0.99695pt too wide) in paragraph at lines 48--48
+[]\T1/LibertinusSerif-TLF/m/it/12 Coefficient of Re-sti-tu-tion | For-mula & Equation - Vi-deo & Les-son Transcript\T1/LibertinusSerif-TLF/m/n/12 . study.com.
+ []
+
+
+Overfull \hbox (45.53548pt too wide) in paragraph at lines 48--48
+\T1/LibertinusSerif-TLF/m/sc/12 url\T1/LibertinusSerif-TLF/m/n/12 : [][]$\T1/LibertinusMono-TLF/m/n/12 https : / / study . com / learn / lesson / coefficient -[] restitution -[]
+ []
+
+
 Overfull \hbox (1.47693pt too wide) in paragraph at lines 48--48
 []\T1/LibertinusSerif-TLF/m/n/12 Seattle Uni-ver-sity. \T1/LibertinusSerif-TLF/m/it/12 Mag-nus Ef-fect | Ther-mo-dy-na-mics | Phy-s-ics De-mos | Phy-s-ics | College
  []
@@ -1555,43 +1568,38 @@ Overfull \hbox (22.4821pt too wide) in paragraph at lines 48--48
 \tf@thm=\write7
 \openout7 = `main.thm'.
 
-[27
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_cb34qf.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_tll2u3.enc}] (./main.aux)
+[25{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_cb34qf.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_tll2u3.enc}] (./main.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2021/03/21>
  ***********
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 23FE0640DBD9651F6FCAB26A061A1817;1481
-(rerunfilecheck)             After:  93511AF80B753BE0C8CA94A90248614F;1968.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: E9F04A48521D8B9FF499001100CB3A80;2126.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  )
 (\end occurred when \ifx on line 30 was incomplete) 
 Here is how much of TeX's memory you used:
- 41306 strings out of 475735
- 816601 string characters out of 5784786
+ 41321 strings out of 475735
+ 817322 string characters out of 5784786
  1873759 words of memory out of 5000000
- 61269 multiletter control sequences out of 15000+600000
- 650736 words of font info for 135 fonts, out of 8000000 for 9000
+ 61285 multiletter control sequences out of 15000+600000
+ 655930 words of font info for 137 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,11n,120p,853b,2145s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,11n,120p,1437b,2145s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/newtx/LibertineMathMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusMono-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/MinLibReg.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (27 pages, 575392 bytes).
+Output written on main.pdf (25 pages, 570872 bytes).
 PDF statistics:
- 332 PDF objects out of 1000 (max. 8388607)
- 275 compressed objects within 3 object streams
- 76 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 291 compressed objects within 3 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

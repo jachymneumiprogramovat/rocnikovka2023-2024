@@ -16,7 +16,7 @@ Obecně se všechny proměné v tomto problému dají rozřadit do tří kategor
  \item[Nezávislé] Pro tuto práci to jsou: \speed{1},~\spin{1} a \angle{1}.
  \item[Závisé] Analogicky se jedná o: \speed{2},~\spin{2} a \angle{2}.
  \item[Kontrolované] Jde především o materiálové konstanty:
-  verikální/horizontální koeficient restituce ($e_{y/x}$), koeficient smýkavého
+  verikální/horizontální koeficient restituce ($e_{x/y}$), koeficient smýkavého
  tření ($\mu$), poloměr ($R$), koeficient momentu hybnosti ($\alpha$),
  vzdálenost geometrického středu od působení normálové síly ($D$).
 \end{description}
@@ -25,7 +25,7 @@ Závislé a nezávislé proměné jsou znázorněné na \myref{obrázku}{fig:odr
 Nezávislé jsou proměné před odrazem a na nich závisí proměné po odraze.
 Kontrolované proměné na \myref{obrázku}{fig:odraz-micku} nejsou, ale stále je
 důležité je uvést pro replikovatelnost výsledků. Také budou z pravidla přebírány
-z odborné literatury, a tedy nebudou mnou měřené. 
+z odborné literatury, a tedy nebudou v této práci měřené.
 
 \begin{figure}[htbp]
  \centering
@@ -37,14 +37,50 @@ z odborné literatury, a tedy nebudou mnou měřené.
 
 \subsection{Koeficienty restituce}
 \label{ssec:koeficienty-restituce}
-elasticita odrazu 
+Koeficient restituce ($e$) vyjadřuje jak moc je odraz elastický, kolik energie
+se v něm ztratí. Perfektně elastický odraz s $e=1$ tedy znamená, že při odrazu
+nedojde k disipaci žádné energie. Taková odraz je ovšem v praktických podmínkách
+nereálný. Hodnoty $e$ jsou v rozmezí $0 \leq e \geq 1$ kde $e=0$ znamená ztrátu
+veškeré energie a už nedochází k žádnému odrazu.
+\autocite{ahmadImpactModelsCoefficient2016,CoefficientRestitutionFormula}
+
+Pro náš případ bude důležité rozdělit koeficient restituce na horizontální a
+vertikální ($e_{x/y}$). To musíme učinit, protože uvažujeme náraz kde
+\angle{1}$ \ll 90^\circ$. 
+
+Jak bude popsáno v
+\myref{podsekci}{ssec:treni-po-dobu-odrazu} na míček v průběhu kontaktu působí
+tření, které není po celou dobu ve stejném směru. Pro tento případ by byl
+nejpřesnější koeficient restituce odvozený z práce, kterou míček a odrazová
+plocha vykonají za dobu odrazu. Pro jednoduchost bude $e$ zaveden podle Newtona
+následovně\autocite{ahmadImpactModelsCoefficient2016}:
+$e =  \textcolor{velcol}{v_1}/\textcolor{velcol}{v_2}$.
+
+Rozdělení $e$ na jeho vertikální a tečnou koponentu můžme vydět na
+\myref{rovnici}{eq:COR}. Narozdíl od $e_y$ není definice $e_x$ intuitivní. 
+
+\begin{equation} \label{eq:COR}
+ \begin{align}
+  e_y &= \frac{\textcolor{velcol}{v_{y2}}}{\textcolor{velcol}{v_{y1}}} \\
+  e_x &= -\frac{(\textcolor{velcol}{v_{x2}}-R\textcolor{spcol}{\omega_2})}{(\textcolor{velcol}{v_{x1}}-R\textcolor{spcol}{\omega_1})}
+ \end{align}
+\end{equation}
+
+\subsubsection{Vzájemné deformace při odrazu}
+\label{ssec:vzajemne-deformace-pri-odrazu}
+
+
 
 \subsection{Moment hybnosti}
 \label{ssec:moment-hybnosti}
-jak moc Déčko reálně ovlivňuje spin
+jak moc Déčko reálně ovlivňuje spin ($D$ a $\alpha$)
 
 \subsection{Tření po dobu odrazu}
 \label{ssec:treni-po-dobu-odrazu}
-otačí se podle toho jestli převládá spin nebo speed
+otačí se podle toho jestli převládá spin nebo speed ($\mu$)
+
+\subsection{Trivální případy}
+\label{ssec:trivalni-pripady}
+
 
 

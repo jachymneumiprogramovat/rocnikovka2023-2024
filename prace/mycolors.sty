@@ -1,13 +1,16 @@
 \RequirePackage{xcolor}
 
 %speed
-\definecolor{velcol}{named}{red}
+\definecolor{velcol}{named}{Red}
+\newcommand{\speed}[1]{\textcolor{velcol}{$\vec{v_{#1}}$}}
 
 %spin
-\definecolor{spcol}{named}{blue}
+\definecolor{spcol}{named}{Blue}
+\newcommand{\spin}[1]{\textcolor{spcol}{$\vec{\omega_{#1}}$}}
 
 %angle
 \definecolor{angcol}{rgb}{0.0,0.5,0.0}
+\renewcommand{\angle}[1]{\textcolor{angcol}{$\theta_{#1}$}}
 
 %friction
 \definecolor{frcol}{named}{MidnightBlue}
@@ -17,3 +20,10 @@
 
 %gtavity
 \definecolor{grcol}{named}{teal}
+
+%material coefitiens
+\definecolor{ccol}{named}{Sepia}
+%\renewcommand{\mue}{\textcolor{ccol}{$\mu$}}
+%\newcommand{\e}[1]{\textcolor{ccol}{$e_{#1}$}}
+%\newcommand{\a}{\textcolor{ccol}{$\alpha$}}
+

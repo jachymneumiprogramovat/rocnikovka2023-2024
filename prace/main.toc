@@ -8,9 +8,11 @@
 \contentsline {subsection}{\numberline {1.1.3}Odpor vzduchu}{16}{subsection.1.1.3}%
 \contentsline {subsection}{\numberline {1.1.4}Magnusova síla}{16}{subsection.1.1.4}%
 \contentsline {section}{\numberline {1.2}Odraz míčku}{17}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Koeficienty restituce}{17}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.1}Koeficienty restituce}{18}{subsection.1.2.1}%
+\contentsline {subsubsection}{Vzájemné deformace při odrazu}{18}{section*.9}%
 \contentsline {subsection}{\numberline {1.2.2}Moment hybnosti}{18}{subsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.2.3}Tření po dobu odrazu}{18}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Trivální případy}{18}{subsection.1.2.4}%
 \contentsline {part}{II\hspace {1em}Praktická část}{19}{part.2}%
 \contentsline {chapter}{\numberline {2}Další zajímavá kapitola}{21}{chapter.2}%
-\contentsline {chapter}{Závěr}{25}{chapter*.9}%
+\contentsline {chapter}{Závěr}{23}{chapter*.10}%

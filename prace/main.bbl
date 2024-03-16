@@ -65,6 +65,48 @@
       \verb http://fyzika.jreichl.com/main.article/view/60-gravitacni-a-tihova-sila-resp-zrychleni
       \endverb
     \endentry
+    \entry{ahmadImpactModelsCoefficient2016}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e35485451159cd4c43138a282a3dc229}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Masniezam},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8c60bcddc19b7b3993daceab59579198}{%
+           family={Ismail},
+           familyi={I\bibinitperiod},
+           given={Khairul},
+           giveni={K\bibinitperiod}}}%
+        {{hash=95f6f571fc16098b2526a37751959664}{%
+           family={Mat},
+           familyi={M\bibinitperiod},
+           given={Fauziah},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{12507a6d3407ccd37c28294c390c8866}
+      \strng{fullhash}{12507a6d3407ccd37c28294c390c8866}
+      \strng{bibnamehash}{12507a6d3407ccd37c28294c390c8866}
+      \strng{authorbibnamehash}{12507a6d3407ccd37c28294c390c8866}
+      \strng{authornamehash}{12507a6d3407ccd37c28294c390c8866}
+      \strng{authorfullhash}{12507a6d3407ccd37c28294c390c8866}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Impact is a complicated phenomenon that occurs when two or more bodies collide at a short time period. Impact model is used to determine the responses of the contact bodies due to the impact event. Furthermore, energy loss due to impact can be determined by coefficient of restitution (COR). Although numerous impact models have been reported in the literatures, the works to improve the model are continuously explored to achieve perfection of the impact model. The aims of this paper are to present the methodologies that have been used to obtain the impact models and COR, evaluate on the pros and cons of the previous impact models and determine the potential area to improve the current impact models and COR. The methods to obtain COR from experiment and finite element method (FEM) are briefly discussed. Besides that, several significant impact models developed by the researchers are also compared. It is found that more works to determine COR in oblique and repeated impacts should be performed. Until now, the viscoplastic impact model is considered to be the most reliable in impact application. This review is intended to assist the derivation of impact models in the future that can improve the accuracy and solve the problem in the previous impact models to be applied in various impact applications.}
+      \field{day}{20}
+      \field{month}{5}
+      \field{shorttitle}{Impact Models and Coefficient of Restitution}
+      \field{title}{Impact Models and Coefficient of Restitution: {{A}} Review}
+      \field{volume}{11}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{6549\bibrangedash 6555}
+      \range{pages}{7}
+      \verb{file}
+      \verb /home/jj/snap/zotero-snap/common/Zotero/storage/8F5TVT7N/Ahmad et al. - 2016 - Impact models and coefficient of restitution A re.pdf
+      \endverb
+    \endentry
     \entry{AerospaceMicroLesson22}{online}{}
       \list{organization}{1}{%
         {www}%
@@ -87,6 +129,27 @@
       \endverb
       \verb{url}
       \verb https://www.aiaa.org/detail/lesson/Aerospace-Micro-Lesson-22
+      \endverb
+    \endentry
+    \entry{CoefficientRestitutionFormula}{online}{}
+      \list{organization}{1}{%
+        {study.com}%
+      }
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Understand what the coefficient of restitution is. Discover the coefficient of restitution formula and learn about perfectly elastic and inelastic...}
+      \field{langid}{english}
+      \field{title}{Coefficient of {{Restitution}} | {{Formula}} \& {{Equation}} - {{Video}} \& {{Lesson Transcript}}}
+      \field{urlday}{11}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://study.com/learn/lesson/coefficient-restitution-overview-equation.html
+      \endverb
+      \verb{url}
+      \verb https://study.com/learn/lesson/coefficient-restitution-overview-equation.html
       \endverb
     \endentry
     \entry{universityMagnusEffectThermodynamics}{online}{}
@@ -127,7 +190,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{latex2e}
 \endrefsection
 \endinput
 

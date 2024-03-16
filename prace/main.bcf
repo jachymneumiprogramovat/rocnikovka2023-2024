@@ -2367,7 +2367,9 @@
     <bcf:citekey order="1" intorder="1">reichlEncyklopedieFyziky2006</bcf:citekey>
     <bcf:citekey order="2" intorder="1">universityMagnusEffectThermodynamics</bcf:citekey>
     <bcf:citekey order="3" intorder="1">AerospaceMicroLesson22</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">latex2e</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">ahmadImpactModelsCoefficient2016</bcf:citekey>
+    <bcf:citekey order="4" intorder="2">CoefficientRestitutionFormula</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">ahmadImpactModelsCoefficient2016</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="ynt">
