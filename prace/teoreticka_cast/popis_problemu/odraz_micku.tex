@@ -2,7 +2,7 @@
 \label{sec:odraz-micku}
 
 Samotný odraz je pro tuto práci nejdůležitější. Tedy bude probrán velmi
-podrobně. Důležitým předpokladem je, že \speed{1} a \spin{1} jsou hodnoty přímo
+podrobně. Důležitým předpokladem je, že $\speed{1}$ a $\spin{1}$ jsou hodnoty přímo
 před odrazem. Díky tomuto předpokladu nemusíme uvažovat let míčku
 popsaný v \myref{sekci}{sec:let-micku} ani jeho letové vlastnosti.
 
@@ -13,8 +13,8 @@ této sekci.
 Obecně se všechny proměnné v tomto problému dají rozřadit do tří kategorií:
 
 \begin{description}
- \item[Nezávislé] Pro tuto práci to jsou: \speed{1},~\spin{1} a \angle{1}.
- \item[Závislé] Analogicky se jedná o: \speed{2},~\spin{2} a \angle{2}.
+ \item[Nezávislé] Pro tuto práci to jsou: $\speed{1}$, $\spin{1}$ a $\angle{1}$.
+ \item[Závislé] Analogicky se jedná o: $\speed{2}$, $\spin{2}$ a $\angle{2}$.
  \item[Kontrolované] Jde především o materiálové konstanty:
   vertikální/horizontální koeficient restituce ($e_{x/y}$), koeficient smýkavého
  tření ($\mu$), poloměr ($R$), koeficient momentu hybnosti ($\alpha$),
@@ -44,9 +44,9 @@ nereálný. Hodnoty $e$ jsou v rozmezí $0 \leq e \geq 1$ kde $e=0$ znamená ztr
 veškeré energie a už nedochází k žádnému odrazu.
 \autocite{ahmadImpactModelsCoefficient2016,CoefficientRestitutionFormula}
 
-Pro náš případ bude důležité rozdělit koeficient restituce na horizontální a
-vertikální ($e_{x/y}$). To musíme učinit, protože uvažujeme náraz kde
-\angle{1}$ \ll 90^\circ$. 
+Pro náš případ bude důležité rozdělit koeficient restituce na tečný a
+vertikální ($e_{x/y}$). Tečnou komponentu budeme uvažovat v bodě, nebo ploše,
+kde míček přichází do kontaktu s odrazovou plochou.
 
 Jak bude popsáno v
 \myref{podsekci}{ssec:treni-po-dobu-odrazu} na míček v průběhu kontaktu působí
@@ -54,27 +54,59 @@ tření, které není po celou dobu ve stejném směru. Pro tento případ by by
 nejpřesnější koeficient restituce odvozený z práce, kterou míček a odrazová
 plocha vykonají za dobu odrazu. Pro jednoduchost bude $e$ zaveden podle Newtona
 následovně\autocite{ahmadImpactModelsCoefficient2016}:
-$e =  \textcolor{velcol}{v_1}/\textcolor{velcol}{v_2}$.
+$e =  \sped{1}/\sped{2}$.
 
 Rozdělení $e$ na jeho vertikální a tečnou komponentu můžeme vidět na
-\myref{rovnici}{eq:COR}. Na rozdíl od $e_y$ není definice $e_x$ intuitivní. 
+rovnicích \ref{eq:COR} a \ref{eq:CORR}. Na rozdíl od $e_y$ není definice $e_x$ intuitivní. Aby
+byla tato definice logicky motivovaná je třeba vrátit se k obecné defnici z
+předchozího odstavce.
 
-\begin{equation} 
+\begin{align} 
  \label{eq:COR}
- \begin{align}
-  %e_y &= \frac{\textcolor{velcol}{v_{y2}}}{\textcolor{velcol}{v_{y1}}} \\
- % e_x &= -\frac{(\textcolor{velcol}{v_{x2}}-R\textcolor{spcol}{\omega_2})}{(\textcolor{velcol}{v_{x1}}-R\textcolor{spcol}{\omega_1})}
- \end{align}
-\end{equation}
+  e_y &= \frac{\sped{y2}}{\sped{y1}} \\
+  \label{eq:CORR}
+ e_x &= -\frac{(\sped{x2}-R\spn{\omega_2})}{{(\sped{x1}}-R\spn{1})}
+\end{align}
 
-\subsubsection{Vzájemné deformace při odrazu}
-\label{ssec:vzajemne-deformace-pri-odrazu}
+\subsubsection{Lineární a úhlová rychlost}
+\label{ssec:linearni-a-uhlova-rychlost}
 
+Obecně by koeficient restituce měl být poměr lineární rychlosti před a po
+odrazu. V našem případě musíme vzít v potaz, že míček má úhlovou rychlost, která
+se s tou lineární sčítá.\autocite{WhyPeopleEdge2017,TangentialVelocityFormula}
+Proto ji musíme odečíst abychom získali jen lineární složku rychlosti.
 
+\begin{figure}[htbp]
+ \centering
+ \input{figs/tecna-rychlost}
+
+ \caption{Tečná, horizontální a vertikální komponenta rychlosti}
+ \label{fig:tecna-rychlost}
+\end{figure}
+
+Jak můžeme vidět na \myref{obrázku}{fig:tecna-rychlost}, tečná a horizontální
+složka míří stejným směrem,\footnote{Rovnoběžné jsou tyto složky jen pro póly
+míčku, ale mají stejné znaménko, pro všechny body na obvodu (pro $\sped{x} > 0$ a $ \spn{}
+<0$). My koeficient restituce počítáme pro bod v kontaktu s odrazovou plochou
+tedy zmíněné výpočty
+platí.\autocite{crossBounceSpinningBall2005,hierrezueloSlidingRollingPhysics1995} Jinak by bylo zapotřebí započítat odchylku
+$\speed{x}$ a $\speed{t}$.} tedy horizontální získáme jako
+$\sped{x}-R\spn{}$. Tento výraz můžeme vidět
+v \myref{rovnici}{eq:CORR}.
 
 \subsection{Moment hybnosti}
 \label{ssec:moment-hybnosti}
-jak moc Déčko reálně ovlivňuje spin ($D$ a $\alpha$)
+Moment hybnosti je rotační ekvivalent hybnosti a udává se k nějaké ose. V našem
+případě tato osa prochází středem míčku a v \myref{obrázku}{fig:diagram} si ji
+můžeme představit jako kolmou na celý obrázek. Úhlová rychlost také je udávána k
+této ose.
+
+Moment hybnosti definujme jako:
+\[
+ \vec{L}=I\spin{}
+\]
+Kde pro nás případ se moment setrvačnosti ($I$) rovná $\alpha m R^2$. 
+
 
 \subsection{Tření po dobu odrazu}
 \label{ssec:treni-po-dobu-odrazu}

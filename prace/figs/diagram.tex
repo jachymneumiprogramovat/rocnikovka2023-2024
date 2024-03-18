@@ -48,12 +48,12 @@
 	 	radius = 1];
 
 	 %normal force
-		\node[](normalcenter) at  (3.3,-2.1); 
+	 \node[] (normalcenter) at  (3.3,-2.1) {}; 
 	 	\draw[brown,thick, -stealth] (3.3,-3) --node[right] {$\vec{N}$}
 	 	 (normalcenter);
 
 	 %Deeez nuuuts
-	 	\node[] (center) at (3,-2.1);
+	 	\node[] (center) at (3,-2.1) {};
 	 	\draw[decoration={brace},decorate]  (3,-2.2) --node[above] {$D$} (3.3,-2.2);
  \draw[dashed,brown!50] (3,-3) -- (center);
  
@@ -65,8 +65,7 @@
 	 radius = 1.1] node[midway,left, above=5pt] {$\omega_2$}
 
  %contact point
-	\node[fill=black,circle,inner sep=0pt, minimum size=3pt](naraz) at (3,-3)
-	{};
+	\node[fill=black,circle,inner sep=0pt, minimum size=3pt] (naraz) at (3,-3) {};
 
  %Friction force
  \draw[-stealth,thick,frcol] (3,-3.1) --node[below] {$\vec{F}$}++

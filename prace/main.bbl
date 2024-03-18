@@ -1,0 +1,349 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{hierrezueloSlidingRollingPhysics1995}{article}{}
+      \name{author}{2}{}{%
+        {{hash=85b87fa8898a2c29c62112d26c621a77}{%
+           family={Hierrezuelo},
+           familyi={H\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9ac39e33baf2bfe4fb3d51755eee8293}{%
+           family={Carnero},
+           familyi={C\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ac0ad051bdbcee0bdcd813386046ed9}
+      \strng{fullhash}{9ac0ad051bdbcee0bdcd813386046ed9}
+      \strng{bibnamehash}{9ac0ad051bdbcee0bdcd813386046ed9}
+      \strng{authorbibnamehash}{9ac0ad051bdbcee0bdcd813386046ed9}
+      \strng{authornamehash}{9ac0ad051bdbcee0bdcd813386046ed9}
+      \strng{authorfullhash}{9ac0ad051bdbcee0bdcd813386046ed9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0031-9120, 1361-6552}
+      \field{journaltitle}{Phys. Educ.}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{3}
+      \field{shorttitle}{Sliding and Rolling}
+      \field{title}{Sliding and Rolling: The Physics of a Rolling Ball}
+      \field{urlday}{7}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{volume}{30}
+      \field{year}{1995}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{177\bibrangedash 182}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1088/0031-9120/30/3/009
+      \endverb
+      \verb{file}
+      \verb /home/jj/snap/zotero-snap/common/Zotero/storage/JNX3W73S/Hierrezuelo and Carnero - 1995 - Sliding and rolling the physics of a rolling ball.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://iopscience.iop.org/article/10.1088/0031-9120/30/3/009
+      \endverb
+      \verb{url}
+      \verb https://iopscience.iop.org/article/10.1088/0031-9120/30/3/009
+      \endverb
+    \endentry
+    \entry{crossBounceSpinningBall2005}{article}{}
+      \name{author}{1}{}{%
+        {{hash=74e27febfc6fd2a73834e07d819ed042}{%
+           family={Cross},
+           familyi={C\bibinitperiod},
+           given={Rod},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{74e27febfc6fd2a73834e07d819ed042}
+      \strng{fullhash}{74e27febfc6fd2a73834e07d819ed042}
+      \strng{bibnamehash}{74e27febfc6fd2a73834e07d819ed042}
+      \strng{authorbibnamehash}{74e27febfc6fd2a73834e07d819ed042}
+      \strng{authornamehash}{74e27febfc6fd2a73834e07d819ed042}
+      \strng{authorfullhash}{74e27febfc6fd2a73834e07d819ed042}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0002-9505, 1943-2909}
+      \field{journaltitle}{American Journal of Physics}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Bounce of a Spinning Ball near Normal Incidence}
+      \field{urlday}{8}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{volume}{73}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{914\bibrangedash 920}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1119/1.2008299
+      \endverb
+      \verb{file}
+      \verb /home/jj/snap/zotero-snap/common/Zotero/storage/VADRP3WU/Cross - 2005 - Bounce of a spinning ball near normal incidence.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.aip.org/aapt/ajp/article/73/10/914-920/1042412
+      \endverb
+      \verb{url}
+      \verb https://pubs.aip.org/aapt/ajp/article/73/10/914-920/1042412
+      \endverb
+    \endentry
+    \entry{reichlEncyklopedieFyziky2006}{online}{}
+      \name{author}{2}{}{%
+        {{hash=12c09556c4fa68b82dcc874c6090ec97}{%
+           family={Reichl},
+           familyi={R\bibinitperiod},
+           given={Jaroslav},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f3d828f9eea58b746ac07460dfe32592}{%
+           family={Všetička},
+           familyi={V\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Jaroslav Reichl}%
+      }
+      \strng{namehash}{ad23ea17f1c65ca19fb99d129d85e27e}
+      \strng{fullhash}{ad23ea17f1c65ca19fb99d129d85e27e}
+      \strng{bibnamehash}{ad23ea17f1c65ca19fb99d129d85e27e}
+      \strng{authorbibnamehash}{ad23ea17f1c65ca19fb99d129d85e27e}
+      \strng{authornamehash}{ad23ea17f1c65ca19fb99d129d85e27e}
+      \strng{authorfullhash}{ad23ea17f1c65ca19fb99d129d85e27e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Encyklopedie fyziky vydávaná formou průběžně aktualizovaných webových stránek}
+      \field{langid}{czech}
+      \field{title}{Encyklopedie fyziky}
+      \field{type}{Text}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/jj/snap/zotero-snap/common/Zotero/storage/NKH4VA2R/60-gravitacni-a-tihova-sila-resp-zrychleni.html
+      \endverb
+      \verb{urlraw}
+      \verb http://fyzika.jreichl.com/main.article/view/60-gravitacni-a-tihova-sila-resp-zrychleni
+      \endverb
+      \verb{url}
+      \verb http://fyzika.jreichl.com/main.article/view/60-gravitacni-a-tihova-sila-resp-zrychleni
+      \endverb
+    \endentry
+    \entry{ahmadImpactModelsCoefficient2016}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e35485451159cd4c43138a282a3dc229}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Masniezam},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8c60bcddc19b7b3993daceab59579198}{%
+           family={Ismail},
+           familyi={I\bibinitperiod},
+           given={Khairul},
+           giveni={K\bibinitperiod}}}%
+        {{hash=95f6f571fc16098b2526a37751959664}{%
+           family={Mat},
+           familyi={M\bibinitperiod},
+           given={Fauziah},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{12507a6d3407ccd37c28294c390c8866}
+      \strng{fullhash}{12507a6d3407ccd37c28294c390c8866}
+      \strng{bibnamehash}{12507a6d3407ccd37c28294c390c8866}
+      \strng{authorbibnamehash}{12507a6d3407ccd37c28294c390c8866}
+      \strng{authornamehash}{12507a6d3407ccd37c28294c390c8866}
+      \strng{authorfullhash}{12507a6d3407ccd37c28294c390c8866}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Impact is a complicated phenomenon that occurs when two or more bodies collide at a short time period. Impact model is used to determine the responses of the contact bodies due to the impact event. Furthermore, energy loss due to impact can be determined by coefficient of restitution (COR). Although numerous impact models have been reported in the literatures, the works to improve the model are continuously explored to achieve perfection of the impact model. The aims of this paper are to present the methodologies that have been used to obtain the impact models and COR, evaluate on the pros and cons of the previous impact models and determine the potential area to improve the current impact models and COR. The methods to obtain COR from experiment and finite element method (FEM) are briefly discussed. Besides that, several significant impact models developed by the researchers are also compared. It is found that more works to determine COR in oblique and repeated impacts should be performed. Until now, the viscoplastic impact model is considered to be the most reliable in impact application. This review is intended to assist the derivation of impact models in the future that can improve the accuracy and solve the problem in the previous impact models to be applied in various impact applications.}
+      \field{day}{20}
+      \field{month}{5}
+      \field{shorttitle}{Impact Models and Coefficient of Restitution}
+      \field{title}{Impact Models and Coefficient of Restitution: {{A}} Review}
+      \field{volume}{11}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{6549\bibrangedash 6555}
+      \range{pages}{7}
+      \verb{file}
+      \verb /home/jj/snap/zotero-snap/common/Zotero/storage/8F5TVT7N/Ahmad et al. - 2016 - Impact models and coefficient of restitution A re.pdf
+      \endverb
+    \endentry
+    \entry{WhyPeopleEdge2017}{online}{}
+      \list{organization}{1}{%
+        {Science ABC}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Tangential velocity is the component of motion along the edge of a circle measured at any arbitrary instant. Tangential velocity describes the motion of an object along the edge of this circle whose direction at any given point on the circle is always along the tangent to that point.}
+      \field{day}{6}
+      \field{hour}{7}
+      \field{langid}{american}
+      \field{minute}{15}
+      \field{month}{9}
+      \field{second}{40}
+      \field{timezone}{Z}
+      \field{title}{Why {{People At The Edge Of A Merry Go Round Fly Off At Greater Speeds Than The Ones Inside}}?}
+      \field{urlday}{7}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/jj/snap/zotero-snap/common/Zotero/storage/FG86598I/what-is-tangential-velocity.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.scienceabc.com/nature/universe/what-is-tangential-velocity.html
+      \endverb
+      \verb{url}
+      \verb https://www.scienceabc.com/nature/universe/what-is-tangential-velocity.html
+      \endverb
+    \endentry
+    \entry{AerospaceMicroLesson22}{online}{}
+      \list{organization}{1}{%
+        {www}%
+      }
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Magnus Effect}
+      \field{langid}{english}
+      \field{title}{Aerospace {{Micro-Lesson}} \#22}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/jj/snap/zotero-snap/common/Zotero/storage/UQRWAX6Z/Aerospace-Micro-Lesson-22.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.aiaa.org/detail/lesson/Aerospace-Micro-Lesson-22
+      \endverb
+      \verb{url}
+      \verb https://www.aiaa.org/detail/lesson/Aerospace-Micro-Lesson-22
+      \endverb
+    \endentry
+    \entry{CoefficientRestitutionFormula}{online}{}
+      \list{organization}{1}{%
+        {study.com}%
+      }
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Understand what the coefficient of restitution is. Discover the coefficient of restitution formula and learn about perfectly elastic and inelastic...}
+      \field{langid}{english}
+      \field{title}{Coefficient of {{Restitution}} | {{Formula}} \& {{Equation}} - {{Video}} \& {{Lesson Transcript}}}
+      \field{urlday}{11}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://study.com/learn/lesson/coefficient-restitution-overview-equation.html
+      \endverb
+      \verb{url}
+      \verb https://study.com/learn/lesson/coefficient-restitution-overview-equation.html
+      \endverb
+    \endentry
+    \entry{TangentialVelocityFormula}{online}{}
+      \list{organization}{1}{%
+        {study.com}%
+      }
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Learn to understand the tangential speed, and see the formula of the tangential velocity. Learn how to convert tangential velocity to angular...}
+      \field{langid}{english}
+      \field{title}{Tangential {{Velocity Formula}} \& {{Units}} | {{How}} to {{Find Tangential Velocity}} - {{Video}} \& {{Lesson Transcript}}}
+      \field{urlday}{7}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/jj/snap/zotero-snap/common/Zotero/storage/VY8PM63F/tangential-velocity-formula-units.html
+      \endverb
+      \verb{urlraw}
+      \verb https://study.com/learn/lesson/tangential-velocity-formula-units.html
+      \endverb
+      \verb{url}
+      \verb https://study.com/learn/lesson/tangential-velocity-formula-units.html
+      \endverb
+    \endentry
+    \entry{universityMagnusEffectThermodynamics}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6dd772b9d32255490cfdb7c021e71ff4}{%
+           family={University},
+           familyi={U\bibinitperiod},
+           given={Seattle},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Seattle University}%
+      }
+      \strng{namehash}{6dd772b9d32255490cfdb7c021e71ff4}
+      \strng{fullhash}{6dd772b9d32255490cfdb7c021e71ff4}
+      \strng{bibnamehash}{6dd772b9d32255490cfdb7c021e71ff4}
+      \strng{authorbibnamehash}{6dd772b9d32255490cfdb7c021e71ff4}
+      \strng{authornamehash}{6dd772b9d32255490cfdb7c021e71ff4}
+      \strng{authorfullhash}{6dd772b9d32255490cfdb7c021e71ff4}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Magnus {{Effect}} | {{Thermodynamics}} | {{Physics Demos}} | {{Physics}} | {{College}} of {{Science}} and {{Engineering}}}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/jj/snap/zotero-snap/common/Zotero/storage/KC5R3674/magnus-effect.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.seattleu.edu/scieng/physics/physics-demos/thermodynamics/magnus-effect/
+      \endverb
+      \verb{url}
+      \verb https://www.seattleu.edu/scieng/physics/physics-demos/thermodynamics/magnus-effect/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
