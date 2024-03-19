@@ -2380,6 +2380,14 @@
     <bcf:citekey order="10" intorder="1">hierrezueloSlidingRollingPhysics1995</bcf:citekey>
     <bcf:citekey order="11" intorder="1">crossGripslipBehaviorBouncing2002</bcf:citekey>
     <bcf:citekey order="11" intorder="2">Cross_2018</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">WhatDynamicFriction</bcf:citekey>
+    <bcf:citekey order="12" intorder="2">hierrezueloSlidingRollingPhysics1995</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">hierrezueloSlidingRollingPhysics1995</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">crossBounceSpinningBall2005</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">hierrezueloSlidingRollingPhysics1995</bcf:citekey>
+    <bcf:citekey order="14" intorder="2">crossGripslipBehaviorBouncing2002</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">crossGripslipBehaviorBouncing2002</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">crossGripslipBehaviorBouncing2002</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="ynt">

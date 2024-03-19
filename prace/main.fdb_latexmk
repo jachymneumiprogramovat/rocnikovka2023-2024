@@ -1,12 +1,13 @@
 # Fdb version 4
-["biber main"] 1710790893 "main.bcf" "main.bbl" "main" 1710790920 0
-  "./refs.bib" 1710790851 13704 2570c2d23eaa7b75627bafc6d29ece28 ""
-  "main.bcf" 1710790920 109108 f8a8c2f382e291a85e9adbfbae4db96e "pdflatex"
+["biber main"] 1710864000 "main.bcf" "main.bbl" "main" 1710864002 0
+  "./refs.bib" 1710860626 12229 753d96f97ff59a862388dc6c5dded698 ""
+  "main.bcf" 1710863998 109809 45b8072c515733f0dadc5d7361ed7544 "pdflatex"
+  "refs.bib" 1710860626 12229 753d96f97ff59a862388dc6c5dded698 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1710790917 "main.tex" "main.pdf" "main" 1710790920 2
+["pdflatex"] 1710863995 "main.tex" "main.pdf" "main" 1710864002 2
   "/etc/texmf/web2c/texmf.cnf" 1685441629 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/7t.enc" 1166318018 2818 1912e6e9a42e927f73ba0dd13f54df8c ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_75t36g.enc" 1667852677 3022 13dbae1db4ca7b6d6a3611a22a194cb8 ""
@@ -256,6 +257,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd" 1427059306 561 d8e97a03c5c4248c2bf6d144fffb97f7 ""
   "/usr/share/texlive/texmf-dist/tex/latex/ntheorem/ntheorem.sty" 1346969955 43120 799f06af91d8fb275749981ca21a5146 ""
   "/usr/share/texlive/texmf-dist/tex/latex/oberdiek/centernot.sty" 1575152444 1640 c9cca60f81c5839b9a3e794d72c0b0a7 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/paralist/paralist.sty" 1485124581 14857 82c76ebe8f06becf69ab309565b2a0cb ""
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty" 1601326656 1090 bae35ef70b3168089ef166db3e66f5b2 ""
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty" 1673816307 373 00b204b1d7d095b892ad31a7494b0373 ""
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty" 1601326656 21013 f4ff83d25bb56552493b030f27c075ae ""
@@ -293,21 +295,22 @@
   "figs/let-micku.tex" 1709718749 743 75fb2c2b0efb20e1a9eef7fda1e3730e ""
   "figs/logo.png" 1708362600 4572 d64efc4ba249d95c81ebe650c696c361 ""
   "figs/tecna-rychlost.tex" 1710780299 465 7e4719aeff5b79e70db05126485c14b3 ""
+  "figs/treni.tex" 1710861908 1001 13e5e1f3a9fcd9ebce01028823fb4dac ""
   "introduction.tex" 1710347283 1248 82d7828db797de389c0d1548329af28c ""
-  "main.aux" 1710790920 8086 bf95b7cfad77a6c65ff8d7e7708840b3 "pdflatex"
-  "main.bbl" 1710790894 19370 b8ed42870dd97718aa06080b459b438e "biber main"
-  "main.out" 1710790920 2131 744c7947ee6b79ce3e3789cc23766ad8 "pdflatex"
-  "main.run.xml" 1710790920 2369 e625408b0a382304bbb9d0fce86ae94c "pdflatex"
+  "main.aux" 1710863998 9577 9f38e7b1b484067ccabc16c6db4fe7e8 "pdflatex"
+  "main.bbl" 1710864002 18301 bc4e14a6819c4ce16bbc8b9a024c3b3f "biber main"
+  "main.out" 1710863998 2131 84109d2ea38d718166c845ff136d4018 "pdflatex"
+  "main.run.xml" 1710863998 2369 e625408b0a382304bbb9d0fce86ae94c "pdflatex"
   "main.tex" 1709296412 972 87752c64e7d949c0fabd54d33d292c87 ""
-  "main.toc" 1710790920 1423 ff5478660c3055c328bc45fdbaa34403 "pdflatex"
+  "main.toc" 1710863998 1566 eafe2cddc0655d2483a0fcc609af9e55 "pdflatex"
   "mycolors.sty" 1710779810 763 9b9880591acd6059d876f6d31560dd37 ""
   "prakticka_cast.tex" 1708362600 101 60f492ba4aefe6c2ced64885d2d907b9 ""
   "prakticka_cast/dalsi_zajimava_kapitola.tex" 1710495703 92 097bea21c60ac39a6493d027e204c30e ""
-  "preamble.tex" 1710495654 1821 921692c1b5ffe1b4d859cb57fb9a5290 ""
+  "preamble.tex" 1710863665 1843 c28e6428d6edc61e371506fe4ce0e21a ""
   "teoreticka_cast.tex" 1710409625 796 de3bd268f4012ac6a33a813c2a5b4637 ""
   "teoreticka_cast/popis_problemu.tex" 1710348952 938 c74c5e1540c3951cea7528e53f1b4570 ""
   "teoreticka_cast/popis_problemu/let_micku.tex" 1710780405 4891 ce99a1c60a39b0137694b9d3945dce79 ""
-  "teoreticka_cast/popis_problemu/odraz_micku.tex" 1710790917 7161 d119ab827fab2998560bfe9958a9530a ""
+  "teoreticka_cast/popis_problemu/odraz_micku.tex" 1710863994 10240 46197ea8e2e4a7032b7e20f6c4c28248 ""
   "titlepage.tex" 1708362600 1149 d864578bed296ea334393e8c8db1e7e5 ""
   (generated)
   "main.aux"

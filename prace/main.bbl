@@ -285,47 +285,6 @@
       \verb https://www.scienceabc.com/nature/universe/what-is-tangential-velocity.html
       \endverb
     \endentry
-    \entry{Cross_2018}{article}{}
-      \name{author}{1}{}{%
-        {{hash=74e27febfc6fd2a73834e07d819ed042}{%
-           family={Cross},
-           familyi={C\bibinitperiod},
-           given={Rod},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IOP Publishing}%
-      }
-      \strng{namehash}{74e27febfc6fd2a73834e07d819ed042}
-      \strng{fullhash}{74e27febfc6fd2a73834e07d819ed042}
-      \strng{bibnamehash}{74e27febfc6fd2a73834e07d819ed042}
-      \strng{authorbibnamehash}{74e27febfc6fd2a73834e07d819ed042}
-      \strng{authornamehash}{74e27febfc6fd2a73834e07d819ed042}
-      \strng{authorfullhash}{74e27febfc6fd2a73834e07d819ed042}
-      \field{extraname}{3}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{A ball that is incident on a surface with backspin is likely to bounce backwards if it is incident at an angle near the normal. The effect is common in many ball sports, including cricket, tennis, baseball, golf, billiards etc. A particularly impressive feat in golf is to land the ball past the hole and let it bounce back towards the hole. The ball may even bounce forward several times before it bounces backward. The physics of a backward bounce is described in the present paper, including several experiments that would be suitable for a student exercise on the bounce of a spinning ball.}
-      \field{journaltitle}{European Journal of Physics}
-      \field{month}{5}
-      \field{number}{4}
-      \field{title}{Backward bounce of a spinning ball}
-      \field{volume}{39}
-      \field{year}{2018}
-      \field{pages}{045007}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/1361-6404/aabece
-      \endverb
-      \verb{urlraw}
-      \verb https://dx.doi.org/10.1088/1361-6404/aabece
-      \endverb
-      \verb{url}
-      \verb https://dx.doi.org/10.1088/1361-6404/aabece
-      \endverb
-    \endentry
     \entry{AerospaceMicroLesson22}{online}{}
       \list{organization}{1}{%
         {www}%
@@ -359,7 +318,7 @@
       \field{labeltitlesource}{title}
       \field{abstract}{Understand what the coefficient of restitution is. Discover the coefficient of restitution formula and learn about perfectly elastic and inelastic...}
       \field{langid}{english}
-      \field{title}{Coefficient of {{Restitution}} | {{Formula}} \& {{Equation}} - {{ Video}} \& {{Lesson Transcript}}}
+      \field{title}{Coefficient of {{Restitution}} | {{Formula}} \& {{Equation}} - {{Video}} \& {{Lesson Transcript}}}
       \field{urlday}{11}
       \field{urlmonth}{7}
       \field{urlyear}{2023}
@@ -436,7 +395,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
-      \field{title}{Magnus {{Effect}} | {{Thermodynamics}} | {{Physics Demos}} | {{ Physics}} | {{College}} of {{Science}} and {{Engineering}}}
+      \field{title}{Magnus {{Effect}} | {{Thermodynamics}} | {{Physics Demos}} | {{Physics}} | {{College}} of {{Science}} and {{Engineering}}}
       \field{urlday}{13}
       \field{urlmonth}{3}
       \field{urlyear}{2024}
@@ -451,7 +410,29 @@
       \verb https://www.seattleu.edu/scieng/physics/physics-demos/thermodynamics/magnus-effect/
       \endverb
     \endentry
+    \entry{WhatDynamicFriction}{online}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this article you will learn What is dynamic friction in physics and what are the different types of dynamic friction.}
+      \field{langid}{english}
+      \field{title}{What Is Dynamic Friction in Physics - {{Friction}}, {{Class}} 11 - {{eSaral}}}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/jj/snap/zotero-snap/common/Zotero/storage/Z8IZ4K2A/what-is-dynamic-friction-in-physics.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.esaral.com/what-is-dynamic-friction-in-physics/
+      \endverb
+      \verb{url}
+      \verb https://www.esaral.com/what-is-dynamic-friction-in-physics/
+      \endverb
+    \endentry
   \enddatalist
+  \missing{Cross_2018}
 \endrefsection
 \endinput
 

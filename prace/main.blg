@@ -1,16 +1,16 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[93] biber:340> INFO - === Mon Mar 18, 2024, 20:41:34
-[110] Biber.pm:419> INFO - Reading 'main.bcf'
-[177] Biber.pm:979> INFO - Found 12 citekeys in bib section 0
-[190] Biber.pm:4419> INFO - Processing section 0
-[201] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
-[203] bibtex.pm:1713> INFO - LaTeX decoding ...
-[228] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
-[326] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[326] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
-[326] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'cs-CZ'
-[341] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[347] bbl.pm:763> INFO - Output to main.bbl
-[347] Biber.pm:131> WARN - legacy month field 'may' in entry 'Cross_2018' is not an integer - this will probably not sort properly.
-[347] Biber.pm:133> INFO - WARNINGS: 1
+[98] biber:340> INFO - === Tue Mar 19, 2024, 17:00:01
+[116] Biber.pm:419> INFO - Reading 'main.bcf'
+[183] Biber.pm:979> INFO - Found 13 citekeys in bib section 0
+[197] Biber.pm:4419> INFO - Processing section 0
+[210] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
+[213] bibtex.pm:1713> INFO - LaTeX decoding ...
+[238] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[328] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
+[329] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[329] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'cs-CZ'
+[344] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[349] bbl.pm:763> INFO - Output to main.bbl
+[349] Biber.pm:131> WARN - I didn't find a database entry for 'Cross_2018' (section 0)
+[349] Biber.pm:133> INFO - WARNINGS: 1

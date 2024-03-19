@@ -137,7 +137,68 @@ tření.\autocite{crossGripslipBehaviorBouncing2002,Cross_2018}
 
 \subsection{Tření po dobu odrazu}
 \label{ssec:treni-odraz}
-otáčí se podle toho jestli převládá spin nebo speed ($\mu$)
+Abychom mohli opodstatnit myšlenky v této podsekci musíme si zavést dynamické
+tření obecně. Poté bude jednoduché nahlédnout do tření po dobu odrazu.
+
+\subsubsection{Dynamické tření}
+\label{sssec:dynamicke-treni}
+
+Směr dynamického tření je vždy opačný k relativní rychlosti dvou těles, které
+mezi sebou tření tvoří. Matematicky dynamické tření vyjádříme
+jako\autocite{WhatDynamicFriction,hierrezueloSlidingRollingPhysics1995}:
+\[
+ \textcolor{frcol}{F}=\mu \textcolor{brown}{N}
+\]
+Kde důležitou konstantou je koeficient dynamického tření ($\mu$), které je
+empiricky měřeno. $\mu$ je materiálová konstanta pro oba z povrchů přítomných při
+tření. Dále budou materiály vybírány tak aby jejich $\mu$ bylo již naměřeno.
+
+\subsubsection{Směr tření při odrazu}
+\label{sssec:smer-treni-pri-odrazu}
+
+Pro popsání tření při odrazu předpokládejme, že $\spn{1}=0$. Tento předpoklad
+platí také pro \myref{obrázek}{fig:treni}. Jakmile míček přichází do kontaktu s
+odrazovou plochou začíná na něj působit tření. To směřuje proti směru $\sped{x}$
+a tedy se $\sped{x}$ zmenšuje. Druhý méně jasný efekt je změna momentu hybnosti.
+Tření zpomaluje jen tu část míčku v kontaktu s druhým povrchem, horní polovina
+se ovšem pohybuje stále stejně rychle tedy dochází k přeměně lineární rychlosti
+na tu
+úhlovou.\autocite{hierrezueloSlidingRollingPhysics1995,crossBounceSpinningBall2005}
+Tento efekt je znázorněn v části \textbf{a)} \myref{obrázku}{fig:treni}.
+
+Zmenšování $\sped{x}$ a zvětšování $\spn{}$ probíhá jen do chvíle kdy
+$\sped{x}=R\spn{}$. Poté ještě chvíli pokračuje v takzvaném \uv{gripu} (ten
+můžeme vidět v části \textbf{b)}. V \uv{gripu} je míček pouze díky statickému
+tření. Jakmile moment hybnosti přeroste statické tření míček přechází do
+\uv{rolování}.\autocite{hierrezueloSlidingRollingPhysics1995,crossGripslipBehaviorBouncing2002}
+
+Rolování, které můžeme vidět v části \textbf{c)}, je nejméně intuitivní ze všech
+částí odrazu. Směr tření se v něm totiž otočí a působí po směru $\sped{x}$. Jak již
+bylo řečeno tření působí proti směru relativního pohybu dvou povrchů. Ve chvíli
+kdy $\sped{x} < R\spn{}$ tak spodek míčku po povrchu podkluzuje. Tedy relativní
+pohyb dvou povrchů je ve směru rotace. Tření v tomto případě působí proti směru
+$\spn{}$ a po směru $\sped{x}$.\autocite{crossGripslipBehaviorBouncing2002}
+
+Když se míček při rolování neodrazí od podložky může se stát, že díky tření se
+přes \uv{grip} zase míček dostane do \uv{slidování}, které již bylo popsáno a je znázorněno v
+sekci \textbf{a)} \myref{obrázku}{fig:treni}, a tedy že $\sped{x} > R\spn{}$.
+Jestliže odraz tvrdá dostatečně dlouho, cyklů  
+\begin{inparaenum}
+\item sliding
+\item grip
+\item roling
+\item grip
+\end{inparaenum}
+se stihne vystřídat hned několik.\autocite{crossGripslipBehaviorBouncing2002}
+
+\begin{figure}[htbp]
+ \centering
+ \input{figs/treni.tex}
+
+ \caption{Směr tření po dobu odrazu}
+ \label{fig:treni}
+\end{figure}
+
 
 \subsection{Triviální případy}
 \label{ssec:trivialni-pripady}
