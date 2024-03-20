@@ -1,13 +1,12 @@
 # Fdb version 4
-["biber main"] 1710864000 "main.bcf" "main.bbl" "main" 1710864002 0
-  "./refs.bib" 1710860626 12229 753d96f97ff59a862388dc6c5dded698 ""
-  "main.bcf" 1710863998 109809 45b8072c515733f0dadc5d7361ed7544 "pdflatex"
-  "refs.bib" 1710860626 12229 753d96f97ff59a862388dc6c5dded698 ""
+["biber main"] 1710967997 "main.bcf" "main.bbl" "main" 1710968431 0
+  "./refs.bib" 1710967911 13921 a5e7f0c492d6799c058b7c362e99a6d2 ""
+  "main.bcf" 1710968430 109828 d88543c2ac9b2a7878d794cb4e985213 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1710863995 "main.tex" "main.pdf" "main" 1710864002 2
+["pdflatex"] 1710968427 "main.tex" "main.pdf" "main" 1710968431 2
   "/etc/texmf/web2c/texmf.cnf" 1685441629 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/7t.enc" 1166318018 2818 1912e6e9a42e927f73ba0dd13f54df8c ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_75t36g.enc" 1667852677 3022 13dbae1db4ca7b6d6a3611a22a194cb8 ""
@@ -295,22 +294,24 @@
   "figs/let-micku.tex" 1709718749 743 75fb2c2b0efb20e1a9eef7fda1e3730e ""
   "figs/logo.png" 1708362600 4572 d64efc4ba249d95c81ebe650c696c361 ""
   "figs/tecna-rychlost.tex" 1710780299 465 7e4719aeff5b79e70db05126485c14b3 ""
-  "figs/treni.tex" 1710861908 1001 13e5e1f3a9fcd9ebce01028823fb4dac ""
+  "figs/treni.tex" 1710934639 1504 e5568529902e747614ef5c2076d9fb08 ""
   "introduction.tex" 1710347283 1248 82d7828db797de389c0d1548329af28c ""
-  "main.aux" 1710863998 9577 9f38e7b1b484067ccabc16c6db4fe7e8 "pdflatex"
-  "main.bbl" 1710864002 18301 bc4e14a6819c4ce16bbc8b9a024c3b3f "biber main"
-  "main.out" 1710863998 2131 84109d2ea38d718166c845ff136d4018 "pdflatex"
-  "main.run.xml" 1710863998 2369 e625408b0a382304bbb9d0fce86ae94c "pdflatex"
+  "main.aux" 1710968430 10770 2ef1cae8b528a8079d0e31a51ccde1c3 "pdflatex"
+  "main.bbl" 1710967998 20211 aa34db5db6abd7da16b6c444f296885c "biber main"
+  "main.out" 1710968430 2505 76caded6ba61c820481e8e1a5c074a81 "pdflatex"
+  "main.run.xml" 1710968430 2369 e625408b0a382304bbb9d0fce86ae94c "pdflatex"
   "main.tex" 1709296412 972 87752c64e7d949c0fabd54d33d292c87 ""
-  "main.toc" 1710863998 1566 eafe2cddc0655d2483a0fcc609af9e55 "pdflatex"
+  "main.toc" 1710968430 1974 7f2814bc3b0dacbbb674385d1bd0aafb "pdflatex"
   "mycolors.sty" 1710779810 763 9b9880591acd6059d876f6d31560dd37 ""
   "prakticka_cast.tex" 1708362600 101 60f492ba4aefe6c2ced64885d2d907b9 ""
-  "prakticka_cast/dalsi_zajimava_kapitola.tex" 1710495703 92 097bea21c60ac39a6493d027e204c30e ""
-  "preamble.tex" 1710863665 1843 c28e6428d6edc61e371506fe4ce0e21a ""
-  "teoreticka_cast.tex" 1710409625 796 de3bd268f4012ac6a33a813c2a5b4637 ""
+  "prakticka_cast/dalsi_zajimava_kapitola.tex" 1710968426 90 bd8211d45073930b991d989211b4ff17 ""
+  "preamble.tex" 1710930933 1843 c28e6428d6edc61e371506fe4ce0e21a ""
+  "teoreticka_cast.tex" 1710967152 138 1b5a5d57dcde1e0dab4d3abe02248980 ""
   "teoreticka_cast/popis_problemu.tex" 1710348952 938 c74c5e1540c3951cea7528e53f1b4570 ""
   "teoreticka_cast/popis_problemu/let_micku.tex" 1710780405 4891 ce99a1c60a39b0137694b9d3945dce79 ""
-  "teoreticka_cast/popis_problemu/odraz_micku.tex" 1710863994 10240 46197ea8e2e4a7032b7e20f6c4c28248 ""
+  "teoreticka_cast/popis_problemu/odraz_micku.tex" 1710967990 11708 9ee78fd24fa476eed09e651cddbbe683 ""
+  "teoreticka_cast/simulace_problemu.tex" 1710968223 93 b221630b1af87fdc91fe44d4a5253737 ""
+  "teoreticka_cast/simulace_problemu/odvozeni_rovnic.tex" 1710968334 118 6868afc1d05098d4c81fd983dd400c99 ""
   "titlepage.tex" 1708362600 1149 d864578bed296ea334393e8c8db1e7e5 ""
   (generated)
   "main.aux"

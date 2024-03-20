@@ -285,6 +285,43 @@
       \verb https://www.scienceabc.com/nature/universe/what-is-tangential-velocity.html
       \endverb
     \endentry
+    \entry{rodBackwardBounceSpinning2018}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0c1b2b4a56c0db0e9517a492daa6540f}{%
+           family={Rod},
+           familyi={R\bibinitperiod},
+           given={Cross},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c1b2b4a56c0db0e9517a492daa6540f}
+      \strng{fullhash}{0c1b2b4a56c0db0e9517a492daa6540f}
+      \strng{bibnamehash}{0c1b2b4a56c0db0e9517a492daa6540f}
+      \strng{authorbibnamehash}{0c1b2b4a56c0db0e9517a492daa6540f}
+      \strng{authornamehash}{0c1b2b4a56c0db0e9517a492daa6540f}
+      \strng{authorfullhash}{0c1b2b4a56c0db0e9517a492daa6540f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A ball that is incident on a surface with backspin is likely to bounce backwards if it is incident at an angle near the normal. The effect is common in many ball sports, including cricket, tennis, baseball, golf, billiards etc. A particularly impressive feat in golf is to land the ball past the hole and let it bounce back towards the hole. The ball may even bounce forward several times before it bounces backward. The physics of a backward bounce is described in the present paper, including several experiments that would be suitable for a student exercise on the bounce of a spinning ball.}
+      \field{journaltitle}{IOP Publishing}
+      \field{langid}{english}
+      \field{title}{Backward Bounce of a Spinning Ball}
+      \field{volume}{39}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{045007}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1361-6404/aabece
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1361-6404/aabece
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1361-6404/aabece
+      \endverb
+    \endentry
     \entry{AerospaceMicroLesson22}{online}{}
       \list{organization}{1}{%
         {www}%
@@ -432,7 +469,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Cross_2018}
 \endrefsection
 \endinput
 

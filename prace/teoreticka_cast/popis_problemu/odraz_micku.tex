@@ -106,9 +106,10 @@ Moment hybnosti definujme jako\autocite{MomentInertiaa}:
  \vec{L}=I\spin{}
 \]
 Kde pro náš případ se moment setrvačnosti ($I$) rovná $\alpha m R^2$. Koeficient
-momentu hybnosti ($\alpha$) závisí na tom jaký míček si vybereme. \texttt{Jestli
-zbude čas rád bych napsal apendix o tom jak integrovat v kouli jakoukoliv funkci
-hustoty a podle toho získal koeficient momentu hybnosti.} Pro pevný plný míček
+momentu hybnosti ($\alpha$) závisí na tom jaký míček si vybereme. 
+%rád bych napsal apendix o tom jak integrovat v kouli jakoukoliv funkci
+%hustoty a podle toho získal koeficient momentu hybnosti.
+Pro pevný plný míček
 $\aplha=2/5$, pro dutou kouli $\alpha=2/3$\autocite{crossGripslipBehaviorBouncing2002,MomentInertiaa}. Míček na stolní tennis je natolik
 tenký, že jeho koeficient momentu hybnosti aproximujeme na $2/3$.
 
@@ -133,7 +134,7 @@ Horizontální vzdálenost normálové síly a geometrického středu máme již
 a to jako $D$. Proto $D\textcolor{brown}{N}$ je moment hybnosti během odrazu s
 nulovým třením.\autocite{hierrezueloSlidingRollingPhysics1995} Když doplníme vliv tření získáme: $D\textcolor{brown}{N} \pm
 R\textcolor{frcol}{F} = I\spn{}$. Kde samozřejmě znaménko záleží na směru
-tření.\autocite{crossGripslipBehaviorBouncing2002,Cross_2018}
+tření.\autocite{crossGripslipBehaviorBouncing2002,rodBackwardBounceSpinning2018}
 
 \subsection{Tření po dobu odrazu}
 \label{ssec:treni-odraz}
@@ -154,7 +155,7 @@ empiricky měřeno. $\mu$ je materiálová konstanta pro oba z povrchů přítom
 tření. Dále budou materiály vybírány tak aby jejich $\mu$ bylo již naměřeno.
 
 \subsubsection{Směr tření při odrazu}
-\label{sssec:smer-treni-pri-odrazu}
+\label{sssec:smer-treni}
 
 Pro popsání tření při odrazu předpokládejme, že $\spn{1}=0$. Tento předpoklad
 platí také pro \myref{obrázek}{fig:treni}. Jakmile míček přichází do kontaktu s
@@ -165,6 +166,14 @@ se ovšem pohybuje stále stejně rychle tedy dochází k přeměně lineární 
 na tu
 úhlovou.\autocite{hierrezueloSlidingRollingPhysics1995,crossBounceSpinningBall2005}
 Tento efekt je znázorněn v části \textbf{a)} \myref{obrázku}{fig:treni}.
+
+\begin{figure}[htbp]
+ \centering
+ \input{figs/treni.tex}
+
+ \caption{Směr tření po dobu odrazu}
+ \label{fig:treni}
+\end{figure}
 
 Zmenšování $\sped{x}$ a zvětšování $\spn{}$ probíhá jen do chvíle kdy
 $\sped{x}=R\spn{}$. Poté ještě chvíli pokračuje v takzvaném \uv{gripu} (ten
@@ -191,17 +200,40 @@ Jestliže odraz tvrdá dostatečně dlouho, cyklů
 \end{inparaenum}
 se stihne vystřídat hned několik.\autocite{crossGripslipBehaviorBouncing2002}
 
-\begin{figure}[htbp]
- \centering
- \input{figs/treni.tex}
-
- \caption{Směr tření po dobu odrazu}
- \label{fig:treni}
-\end{figure}
-
-
 \subsection{Triviální případy}
 \label{ssec:trivialni-pripady}
+
+I když vyhodnocení zpětného odrazu na základě $\sped{1},\spn{1}$ a $\angle{1}$,
+je obecně složitý, pro některé vstupní parametry je jednoduché rozhodnout,
+jestli ke zpětnému odrazu dojde, nebo ne. Jedná se jen o matematicky perfektní
+případy, tedy nejsou v realitě možné.
+
+\subsubsection{Vodorovný let}
+\label{sssec:vodorovny-let}
+
+Jestliže se míček neblíží k odrazové ploše nikdy nemůže dojít k odrazu. Tuto
+podmínky můžeme ekvivalentně charakterizovat $\sped{x}=0$ nebo $\angle{1}=0$.
+Pro tento případ nemůže dojít ke zpětnému odrazu.
+
+\subsubsection{Kolmý let}
+\label{sssec:kolmy-let}
+
+Když míček letí kolmo na odrazovou plochu ($\sped{y}=0$ nebo $\angle{1}=90$)
+stačí $\spn{1}>0$ aby došlo ke zpětnému odrazu. Dále můžeme říci, že větší
+úhlová rychlost (s konstantní $\sped{y}$) vede k větší horizontální
+rychlosti po odrazu. Ke stejnému výsledku vede i menší vertikální rychlost
+(tentokrát s konstantní $\spn{1}$).
+
+\subsubsection{Žádný spin}
+\label{sssec:adny-spin}
+
+Jak už je možná čtenáři jasné z \myref{kapitoly}{ssec:smer-treni}, pro
+$\spn{1}=0$ nemůže dojít ke zpětnému odrazu. Předpokládáme-li nedeformovatelnost
+jak míčku tak povrchu, tento případ může být vysvětlen jen pomocí Newtonova 3.
+zákona. Uvažováním o akci a reakci dojdeme k triviálnímu vysvětlení, že
+$\angle{1}=\angle{2}$. Proto nemůže dojít ke zpětnému odrazu ani v tomto
+případě.
+
 
 
 

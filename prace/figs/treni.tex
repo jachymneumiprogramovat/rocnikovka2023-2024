@@ -12,26 +12,34 @@
  %friction
  \draw[thick,-stealth,frcol] (1,-0.2) --node[below,frcol] {$\vec{F}$} (2,-0.2);
  %label
- \node[thick,black] at (0.5,2.5) {\textbf{a)} $\sped{x}>R\spn{}$}
- %angular momentum
- \draw[thick,spcol] (0.1,1) arc[
-	 start angle = 180,
-	 end angle = 120,
-	 radius = 0.9] node[midway,left, above=5pt] {$\spin{}$}
+ \node[thick,black] at (0.5,2.5) {\textbf{a)} $\sped{x}>R\spn{}$};
+
+ %horizontal direction
+ \draw[thick,velcol,-stealth] (1.2,0.8) --node[above,velcol] {$\speed{x}$}
+  (2.4,0.8);
 
  %second ball
  \draw[thick] (3.5,0) arc[
   start angle = 210,
   end angle = -30,
   radius =1
-  ]
+  ];
 
 %friction
 \draw[thick, -stealth, frcol] (4,-0.2) --node[below, frcol] {$\vec{F}$}
  (5,-0.2);
 
-\node[thick,black] at (4,2.5) {\textbf{b)} $\sped{x}>R\spn{}$}
+ \node[thick,black] at (4,2.5) {\textbf{b)} $\sped{x} \geq R\spn{}$};
 
+ %angular momentum
+ \draw[thick,spcol,-stealth] (3.25,0.5) arc[
+	 start angle = 180,
+	 end angle = 130,
+	 radius = 1.1] node[left,midway] {$\spin{}$};
+
+%horizontal direction
+ \draw[thick,velcol,-stealth] (4.5,0.6) --node[above,velcol] {$\speed{x}$}
+  (5.45,0.6);
 
   %third ball
   \draw[thick] (7,0)  arc[
@@ -43,9 +51,18 @@
 \draw[thick, stealth-, frcol] (7,-0.2) --node[below, frcol] {$\vec{F}$}
  (8,-0.2);
 
-\node[thick,black] at (7.5,2.5) {\textbf{c)} $\sped{x}<R\spn{}$}
+\node[thick,black] at (7.5,2.5) {\textbf{c)} $\sped{x}<R\spn{}$};
 
- 
+ %angular momentum
+ \draw[thick,spcol,-stealth] (6.5,0.75) arc[
+	 start angle = 180,
+	 end angle = 90,
+	 radius = 1.1] node[midway,left, above] {$\spin{}$};
+
+%horizontal direction
+ \draw[thick,velcol,-stealth] (7.8,0.8) --node[above,velcol] {$\speed{x}$}
+  (8.4,0.8);
+
 
 
 \end{tikzpicture}
