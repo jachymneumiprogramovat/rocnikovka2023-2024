@@ -37,11 +37,11 @@ z odborné literatury, a tedy nebudou v této práci měřené.
 
 \subsection{Koeficienty restituce}
 \label{ssec:koeficienty-restituce}
-Koeficient restituce ($e$) vyjadřuje jak moc je odraz elastický, kolik energie
-se v něm ztratí. Perfektně elastický odraz s $e=1$ tedy znamená, že při odrazu
-nedojde k disipaci žádné energie. Taková odraz je ovšem v praktických podmínkách
+Koeficient restituce ($e$) vyjadřuje jak moc je odraz elastický, tedy kolik energie
+se při odrazu disipuje do okolí. Perfektně elastický odraz s $e=1$, znamená, že při odrazu
+nedojde k disipaci žádné energie. Takový odraz je ovšem v praktických podmínkách
 nereálný. Hodnoty $e$ jsou v rozmezí $0 \leq e \geq 1$ kde $e=0$ znamená ztrátu
-veškeré energie a už nedochází k žádnému odrazu.
+veškeré energie a už nedochází k žádnému odrazu. ($\sped{2}=0$)
 \autocite{ahmadImpactModelsCoefficient2016,CoefficientRestitutionFormula}
 
 Pro náš případ bude důležité rozdělit koeficient restituce na tečný a
@@ -49,7 +49,7 @@ vertikální ($e_{x/y}$). Tečnou komponentu budeme uvažovat v bodě, nebo plo�
 kde míček přichází do kontaktu s odrazovou plochou.
 
 Jak bude popsáno v
-\myref{podsekci}{ssec:treni-po-dobu-odrazu} na míček v průběhu kontaktu působí
+\myref{podsekci}{ssec:treni-odraz}, na míček v průběhu kontaktu působí
 tření, které není po celou dobu ve stejném směru. Pro tento případ by byl
 nejpřesnější koeficient restituce odvozený z práce, kterou míček a odrazová
 plocha vykonají za dobu odrazu. Pro jednoduchost bude $e$ zaveden podle Newtona
@@ -58,7 +58,7 @@ $e =  \sped{1}/\sped{2}$.
 
 Rozdělení $e$ na jeho vertikální a tečnou komponentu můžeme vidět na
 rovnicích \ref{eq:COR} a \ref{eq:CORR}. Na rozdíl od $e_y$ není definice $e_x$ intuitivní. Aby
-byla tato definice logicky motivovaná je třeba vrátit se k obecné defnici z
+byla tato definice logicky motivovaná je třeba vrátit se k obecné definici z
 předchozího odstavce.
 
 \begin{align} 
@@ -68,12 +68,13 @@ předchozího odstavce.
  e_x &= -\frac{(\sped{x2}-R\spn{\omega_2})}{{(\sped{x1}}-R\spn{1})}
 \end{align}
 
-\subsubsection{Lineární a úhlová rychlost}
-\label{ssec:linearni-a-uhlova-rychlost}
+\subsubsection{Tečný koeficient restituce}
+\label{ssec:tecna-restituce}
 
-Obecně by koeficient restituce měl být poměr lineární rychlosti před a po
-odrazu. V našem případě musíme vzít v potaz, že míček má úhlovou rychlost, která
-se s tou lineární sčítá.\autocite{WhyPeopleEdge2017,TangentialVelocityFormula}
+Chceme-li definovat tečný koeficient restituce měl by následovat obecný
+koeficient restituce. Definice z \myref{rovnice}{eq:CORR} není dostatečná
+protože v našem případě má míček úhlovou rychlost, která
+se s tou lineární sčítá. \autocite{WhyPeopleEdge2017,TangentialVelocityFormula}
 Proto ji musíme odečíst abychom získali jen lineární složku rychlosti.
 
 \begin{figure}[htbp]
@@ -86,22 +87,22 @@ Proto ji musíme odečíst abychom získali jen lineární složku rychlosti.
 
 Jak můžeme vidět na \myref{obrázku}{fig:tecna-rychlost}, tečná a horizontální
 složka míří stejným směrem,\footnote{Rovnoběžné jsou tyto složky jen pro póly
-míčku, ale mají stejné znaménko, pro všechny body na obvodu (pro $\sped{x} > 0$ a $ \spn{}
-<0$). My koeficient restituce počítáme pro bod v kontaktu s odrazovou plochou
-tedy zmíněné výpočty
-platí.\autocite{crossBounceSpinningBall2005,hierrezueloSlidingRollingPhysics1995} Jinak by bylo zapotřebí započítat odchylku
-$\speed{x}$ a $\speed{t}$.} tedy horizontální získáme jako
-$\sped{x}-R\spn{}$. Tento výraz můžeme vidět
-v \myref{rovnici}{eq:CORR}.
+ míčku, ale stejné znaménko mají, pro všechny body na obvodu (pro $\sped{x} > 0$
+ a $ \spn{} <0$). My koeficient restituce počítáme pro bod v kontaktu s
+ odrazovou plochou tedy zmíněné výpočty
+ platí.\autocite{crossBounceSpinningBall2005,hierrezueloSlidingRollingPhysics1995}
+ Jinak by bylo zapotřebí započítat odchylku $\speed{x}$ a $\speed{t}$.} tedy
+ horizontální získáme jako $\sped{x}-R\spn{}$. Tento výraz můžeme vidět v
+ \myref{rovnici}{eq:CORR}.
 
 \subsection{Moment hybnosti}
 \label{ssec:moment-hybnosti}
-Moment hybnosti je rotační ekvivalent hybnosti a udává se k nějaké ose. V našem
-případě tato osa prochází středem míčku a v \myref{obrázku}{fig:diagram} si ji
-můžeme představit jako kolmou na celý obrázek. Úhlová rychlost také je udávána k
+Moment hybnosti je rotační ekvivalent lineární hybnosti a udává se k nějaké ose. V našem
+případě tato osa prochází středem míčku a v \myref{obrázku}{fig:odraz-micku} si ji
+můžeme představit jako kolmou na celý obrázek. Úhlová rychlost je také udávána k
 této ose.
 
-Moment hybnosti definujme jako\autocite{MomentInertiaa}:
+Moment hybnosti definujme podle\autocite{MomentInertiaa} jako:
 \[
  \vec{L}=I\spin{}
 \]
@@ -109,9 +110,10 @@ Kde pro náš případ se moment setrvačnosti ($I$) rovná $\alpha m R^2$. Koef
 momentu hybnosti ($\alpha$) závisí na tom jaký míček si vybereme. 
 %rád bych napsal apendix o tom jak integrovat v kouli jakoukoliv funkci
 %hustoty a podle toho získal koeficient momentu hybnosti.
-Pro pevný plný míček
-$\aplha=2/5$, pro dutou kouli $\alpha=2/3$\autocite{crossGripslipBehaviorBouncing2002,MomentInertiaa}. Míček na stolní tennis je natolik
-tenký, že jeho koeficient momentu hybnosti aproximujeme na $2/3$.
+Pro pevný plný míček $\alpha=2/5$, pro dutou kouli $\alpha=2/3$
+\autocite{crossGripslipBehaviorBouncing2002,MomentInertiaa}. Míček na stolní
+tennis je natolik tenký, že jeho koeficient momentu hybnosti aproximujeme na
+$2/3$.
 
 \subsubsection{Moment hybnosti během odrazu}
 \label{ssec:moment-hybnosti-behem-odrazu}
@@ -120,18 +122,18 @@ V průběhu odrazu se mění úhlová rychlost a s ní i moment hybnosti. Kromě
 může mít na změnu $L$ vliv \textcolor{frcol}{$\vec{F}$}, a
 \textcolor{brown}{$\vec{N}$}. 
 
-U normálové síly (\textcolor{brown}{$\vec{N}$}) je jednoduché nahlédnout, v
-jakém případě ovlivňuje moment hybnosti. Z \myref{obrázku}{fig:odraz-micku} je
+U normálové síly (\textcolor{brown}{$\vec{N}$}) je uvědomění, v
+jakém případě ovlivňuje moment hybnosti, přímočaré. Z \myref{obrázku}{fig:odraz-micku} je
 zřejmé, že když normálová síla působí přímo pod geometrickým středem
-míčku\footnote{Neboli $D=0$} tak nikterak nepřispívá do úhlového momentu. 
+míčku($D=0$) tak nikterak nepřispívá k úhlového momentu. Naopak
+jestliže $D>0$ tak normálová síla k $L$ přispívá a to úměrně k $D$.
 
 U síly třecí je to poněkud složitější. Ta když směřuje proti směru rotace tak
 zmenšuje úhlovou rychlost a s ní i moment hybnosti. Jak bude popsáno v
 \myref{podsekci}{ssec:treni-odraz} tření může směřovat i ve směru úhlové rychlosti.
 Proto záleží na orientaci \textcolor{frcol}{$\vec{F}$}.
 
-Horizontální vzdálenost normálové síly a geometrického středu máme již zavedenou
-a to jako $D$. Proto $D\textcolor{brown}{N}$ je moment hybnosti během odrazu s
+Z prvního odstavce můžeme říct, že $D\textcolor{brown}{N}$ je moment hybnosti během odrazu s
 nulovým třením.\autocite{hierrezueloSlidingRollingPhysics1995} Když doplníme vliv tření získáme: $D\textcolor{brown}{N} \pm
 R\textcolor{frcol}{F} = I\spn{}$. Kde samozřejmě znaménko záleží na směru
 tření.\autocite{crossGripslipBehaviorBouncing2002,rodBackwardBounceSpinning2018}
@@ -145,13 +147,13 @@ tření obecně. Poté bude jednoduché nahlédnout do tření po dobu odrazu.
 \label{sssec:dynamicke-treni}
 
 Směr dynamického tření je vždy opačný k relativní rychlosti dvou těles, které
-mezi sebou tření tvoří. Matematicky dynamické tření vyjádříme
+mezi sebou tření tvoří. Matematicky velikost dynamické tření vyjádříme
 jako\autocite{WhatDynamicFriction,hierrezueloSlidingRollingPhysics1995}:
 \[
  \textcolor{frcol}{F}=\mu \textcolor{brown}{N}
 \]
-Kde důležitou konstantou je koeficient dynamického tření ($\mu$), které je
-empiricky měřeno. $\mu$ je materiálová konstanta pro oba z povrchů přítomných při
+Kde důležitou konstantou je koeficient dynamického tření ($\mu$), který je
+empiricky měřen. $\mu$ je materiálová konstanta pro oba z povrchů přítomných při
 tření. Dále budou materiály vybírány tak aby jejich $\mu$ bylo již naměřeno.
 
 \subsubsection{Směr tření při odrazu}
@@ -182,29 +184,29 @@ tření. Jakmile moment hybnosti přeroste statické tření míček přechází
 \uv{rolování}.\autocite{hierrezueloSlidingRollingPhysics1995,crossGripslipBehaviorBouncing2002}
 
 Rolování, které můžeme vidět v části \textbf{c)}, je nejméně intuitivní ze všech
-částí odrazu. Směr tření se v něm totiž otočí a působí po směru $\sped{x}$. Jak již
-bylo řečeno tření působí proti směru relativního pohybu dvou povrchů. Ve chvíli
-kdy $\sped{x} < R\spn{}$ tak spodek míčku po povrchu podkluzuje. Tedy relativní
-pohyb dvou povrchů je ve směru rotace. Tření v tomto případě působí proti směru
+částí odrazu. Směr tření se v něm totiž otočí a působí po směru $\sped{x}$. A to
+proto, že když $\sped{x} < R\spn{}$, tak spodek míčku po povrchu podkluzuje. Tedy relativní
+pohyb dvou povrchů je ve směru rotace.Tření v tomto případě působí proti směru
 $\spn{}$ a po směru $\sped{x}$.\autocite{crossGripslipBehaviorBouncing2002}
+
 
 Když se míček při rolování neodrazí od podložky může se stát, že díky tření se
 přes \uv{grip} zase míček dostane do \uv{slidování}, které již bylo popsáno a je znázorněno v
 sekci \textbf{a)} \myref{obrázku}{fig:treni}, a tedy že $\sped{x} > R\spn{}$.
-Jestliže odraz tvrdá dostatečně dlouho, cyklů  
-\begin{inparaenum}
+Jestliže odraz tvrdá dostatečně dlouho, cyklů 
+\begin{enumerate*}[label=\textbf{\arabic*.}]
 \item sliding
 \item grip
 \item roling
 \item grip
-\end{inparaenum}
+\end{enumerate*}
 se stihne vystřídat hned několik.\autocite{crossGripslipBehaviorBouncing2002}
 
 \subsection{Triviální případy}
 \label{ssec:trivialni-pripady}
 
 I když vyhodnocení zpětného odrazu na základě $\sped{1},\spn{1}$ a $\angle{1}$,
-je obecně složitý, pro některé vstupní parametry je jednoduché rozhodnout,
+je obecně složité, pro některé vstupní parametry je jednoduché rozhodnout,
 jestli ke zpětnému odrazu dojde, nebo ne. Jedná se jen o matematicky perfektní
 případy, tedy nejsou v realitě možné.
 
@@ -219,15 +221,15 @@ Pro tento případ nemůže dojít ke zpětnému odrazu.
 \label{sssec:kolmy-let}
 
 Když míček letí kolmo na odrazovou plochu ($\sped{y}=0$ nebo $\angle{1}=90$)
-stačí $\spn{1}>0$ aby došlo ke zpětnému odrazu. Dále můžeme říci, že větší
-úhlová rychlost (s konstantní $\sped{y}$) vede k větší horizontální
+stačí $\spn{1}<0$ aby došlo ke zpětnému odrazu. Dále můžeme říci, že větší
+absolutní hodnota úhlové rychlosti (s konstantní $\sped{y}$) vede k větší horizontální
 rychlosti po odrazu. Ke stejnému výsledku vede i menší vertikální rychlost
 (tentokrát s konstantní $\spn{1}$).
 
 \subsubsection{Žádný spin}
 \label{sssec:adny-spin}
 
-Jak už je možná čtenáři jasné z \myref{kapitoly}{ssec:smer-treni}, pro
+Jak už je možná čtenáři jasné z \myref{kapitoly}{sssec:smer-treni}, pro
 $\spn{1}=0$ nemůže dojít ke zpětnému odrazu. Předpokládáme-li nedeformovatelnost
 jak míčku tak povrchu, tento případ může být vysvětlen jen pomocí Newtonova 3.
 zákona. Uvažováním o akci a reakci dojdeme k triviálnímu vysvětlení, že
